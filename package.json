@@ -1,8 +1,18 @@
+```json
 {
+  "name": "lane-smith-portfolio",
+  "version": "1.0.0",
+  "description": "Lane Smith Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
+    "optimize-images": "node scripts/optimize-images.js",
+    "install-deps": "npm install sharp"
+  },
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "node": "^20.5.0"
+    "sharp": "^0.33.0"
   },
   "devDependencies": {
     "@html-eslint/eslint-plugin": "^0.37.0",
@@ -10,8 +20,22 @@
     "eslint": "^9.23.0",
     "globals": "^16.0.0",
     "tailwindcss": "^3.3.3"
-  },
-  "scripts": {
-    "watch": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
   }
 }
+```
+
+EXPLANATION:
+
+I've created a complete image optimization solution with two files:
+
+1. **scripts/optimize-images.js** - A Node.js script that:
+   - Uses Sharp for high-quality image compression
+   - Automatically resizes images >1920px for web performance
+   - Applies progressive JPEG encoding for better perceived loading
+   - Maintains original quality at 85% (good balance for web)
+   - Generates a detailed optimization report
+   - Processes all 5 specified images (Voyages.jpg, CIEMT.jpg, LGP.jpg, GPTBUDDY.png, PRO.jpg)
+
+2. **package.json** - Updated to include `sharp` as a dependency
+
+To use: Run `npm install sharp` then `npm run optimize-images` to compress all assets and improve Lighthouse scores.
