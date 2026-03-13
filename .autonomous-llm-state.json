@@ -16,11 +16,12 @@
     "[Run final Lighthouse audit and optimize for 90+ scores on performance, accessibility, and best practices]",
     "[Write README.md with setup instructions, deployment guide, and project documentation]"
   ],
-  "current_task": 2,
-  "iterations": 15,
+  "current_task": 3,
+  "iterations": 16,
   "completed_tasks": [
     "[Review and optimize large asset images in assets/ folder - compress Voyages.jpg, CIEMT.jpg, LGP.jpg, GPTBUDDY.png, PRO.jpg to reduce load times and improve Lighthouse scores]",
-    "[Create comprehensive content plan - define hero tagline, bio text, skills list, project descriptions, and contact form fields based on IDEA.md specifications]"
+    "[Create comprehensive content plan - define hero tagline, bio text, skills list, project descriptions, and contact form fields based on IDEA.md specifications]",
+    "[Redesign and build complete Hero section with Lane Smith name, tagline, CTA button, and subtle fade-in animation]"
   ],
   "project_summary": "Transforming a basic \"Under Construction\" portfolio skeleton into a polished, professional portfolio website for Lane Smith with hero section, about bio, skills, project showcase, contact form, animations, dark mode polish, and GitHub Pages deployment.",
   "github_repo": "cactusmountainai/automated-local-llm-test",
