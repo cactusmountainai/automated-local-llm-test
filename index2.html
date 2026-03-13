@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set, compatibility, and viewport -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page Title -->
+    <title>Lane Smith Info</title>
+    <!-- Link to Tailwind CSS output file -->
+    <link href="./styles/output.css" rel="stylesheet" />
+    <!-- Link to Font Awesome for icons -->
+    <script
+      src="https://kit.fontawesome.com/a8cc471b41.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!-- Body with default light background, dark mode background, and smooth scrolling on small screens -->
+  <body class="sm:scroll bg-white dark:bg-gray-950">
+
+    <!-- ==== Navbar Section ==== -->
+    <nav class="absolute w-full flex justify-start items-start p-2">
+
+      <!-- Dark Mode Toggle Button -->
+      <button
+        id="theme-toggle"
+        type="button"
+        class="p-1 my-2 flex text-blue-700 hover:scale-110 duration-100 hover:duration-100 rounded-lg text-sm"
+      >
+        <span class="p-1 font-bold">Dark</span>
+        <i class="h-8 w-8 fa-regular fa-moon fa-2xs" style="color: #1a56db"></i>
+      </button>
+
+      <!-- Placeholder/Link for Resume (if needed in navbar) -->
+      <!-- <a href="path/to/resume.pdf" class="ml-auto p-1 my-2 ...">Resume</a> -->
+
+    </nav>
+    <!-- ==== End Navbar Section ==== -->
+
+    <!-- ==== Main Introduction Section ==== -->
+    <section class="max-w-7xl flex-col fadeInUp-animation pt-14 xl:mx-auto flex justify-center">
+
+        <!-- Role Titles / Navigation Links -->
+        <div class="flex flex-col md:flex-row text-center items-center justify-between mb-6 sm:mb-10 text-2xl xl:text-5xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h2 class="mx-2 xl:mr-8 hover:scale-125 duration-100 hover:duration-100 md:hover:translate-x-4 xl:hover:translate-x-0 cursor-pointer scroll-smooth">
+            <a href="#Project_Manager_Location">Work</a>
+          </h2>
+          <h2 class="mx-2 xl:ml-8 hover:scale-125 duration-100 hover:duration-100 md:hover:-translate-x-4 xl:hover:translate-x-0 cursor-pointer scroll-smooth">
+            <a href="#code_Location">Entrepreneur</a>
+          </h2>
+          <h2 class="mx-2 xl:ml-8 hover:scale-125 duration-100 hover:duration-100 md:hover:-translate-x-4 xl:hover:translate-x-0 cursor-pointer scroll-smooth"> 
+            <a href="#Entrepreneur_Location">Code</a>
+          </h2>
+          <h2 class="mx-2 xl:ml-8 hover:scale-125 duration-100 hover:duration-100 md:hover:-translate-x-4 xl:hover:translate-x-0 cursor-pointer scroll-smooth"> 
+            <a href="#Entrepreneur_Location">Education</a>
+          </h2>
+        </div>
+
+        <!-- Main Name Heading -->
+        <h1 class="text-center mb-2 sm:mb-10 text-8xl sm:text-9xl font-extrabold tracking-tight text-gray-900 dark:text-white"> 
+          LANE SMITH
+        </h1>
+
+        <!-- Profile Image -->
+        <img
+          class="border-2 mx-auto sm:h-96 sm:w-96 h-72 w-72 rounded-full object-cover object-right-top my-4 sm:my-8"
+          src="assets/ProfilePhoto.jpg"
+          alt="Profile Image of Lane Smith"
+        />
+
+        <!-- Social Media and Business Links -->
+        <div class="h-auto my-0 sm:my-0 flex justify-center items-center flex-wrap">
+
+          <!-- LinkedIn Link -->
+          <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-24 sm:w-24  p-2 m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://www.linkedin.com/in/lane-g-smith">
+            <span class="h-1/2 w-full flex items-center justify-center">
+            <i class="text-gray-900 fa-brands fa-linkedin text-3xl sm:text-4xl md:text-5xl"></i>
+            </span>
+            <h2 class="font-bold text-s sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+            Profile
+            </h2>
+          </a>
+
+          <!-- GitHub Link -->
+          <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-24 sm:w-24 p-2 m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://github.com/Lane-G-Smith">
+          <span class="h-1/2 w-full flex items-center justify-center">
+          <i class="text-gray-900 fa-brands fa-github dark:fa-dark text-3xl sm:text-4xl md:text-5xl"></i>
+          </span>
+          <h2 class="font-bold text-s sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+          Code
+          </h2>
+          </a>
+
+          <!-- Photography Link -->
+          <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-24 sm:w-24 p-2  m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://www.lanegphotography.com/">
+            <span class="h-1/2 w-full flex items-center justify-center">
+              <i class="text-gray-900 fa-solid fa-camera text-3xl sm:text-4xl md:text-5xl"></i>
+            </span>
+            <h2 class="font-bold text-s sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+              Photo
+            </h2>
+          </a>
+
+          <!-- Art/Candle Link -->
+          <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-24 sm:w-24 p-2  m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center
+          justify-center text-center" target="_blank" href="https://candlemagicstudio.com/">
+            <span class="h-1/2 w-full flex items-center justify-center">
+              <i class="text-gray-900 fa-solid fa-palette text-3xl sm:text-4xl md:text-5xl"></i>
+            </span>
+            <h2 class="font-bold text-s sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+              Art
+            </h2>
+          </a>
+
+          <!-- Resume Download Link -->
+          <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-24 sm:w-24 p-2 m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" target="_blank" href="https://www.lanesmith.info/assets/SmithResume2025.pdf" download="SmithResume2025.pdf">
+            <span class="h-1/2 w-full flex items-center justify-center">
+              <i class="text-gray-900 fa-solid fa-file-arrow-down text-3xl sm:text-4xl md:text-5xl"></i>
+            </span>
+            <h2 class="font-bold text-s sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+              Resume
+            </h2>
+          </a>
+
+          <!-- Contact Link -->
+          <a class="rounded-xl dark:bg-white bg-inherit hover:scale-125 duration-100 hover:duration-100 h-14 w-14 sm:h-24 sm:w-24 p-2 m-2 sm:m-4 md:m-6 lg:m-8 flex flex-col items-center justify-center text-center" href="mailto:lane.smith.contact@gmail.com">
+            <span class="h-1/2 w-full flex items-center justify-center">
+              <i class="text-gray-900 fa-solid fa-envelope text-3xl sm:text-4xl md:text-5xl"></i>
+            </span>
+            <h2 class="font-bold text-s sm:text-sm md:text-base lg:text-lg h-1/2 w-full flex items-center justify-center pt-1">
+              Contact
+            </h2>
+          </a>
+
+        </div>
+    </section>
+    <!-- ==== End Main Introduction Section ==== -->
+    
+    <!-- ==== Biography Section ==== -->
+    <section class="text-black dark:text-white p-4 lg:p-1">
+
+      <!-- End Biography Top Area -->
+
+        <!-- Card: One -->
+        <div class="mx-auto p-2 xl:p-4 max-w-7xl bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+            <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+              <div class="text-center text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+                Driven by Initiative, Defined by Action
+              </div>
+              <div class="p-4 sm:pl-1 text-xs md:text-base">
+                Some people wait for opportunities. Lane Smith creates them. His career hasn’t been a predictable climb up a single ladder, but a dynamic journey fueled by an innate drive to understand how things work, fix what’s broken, and build something better. It’s a path defined by hands-on action, strategic adaptation, and an entrepreneurial spirit that sees possibilities where others see obstacles.
+                <br></br>
+                Growing up immersed in the outdoor recreation culture of Southern California – hiking, fishing, backpacking – Lane developed an early appreciation for self-reliance, navigating challenges, and reading the environment. This proactive mindset quickly translated into recognizing opportunities. Back in middle school, observing a simple unmet need – thirsty students and no vending machines – wasn't just a passing thought; it was a call to action. He didn’t wait for permission; he sourced sodas, hauled a cooler, and launched his first venture. Selling out daily wasn't just luck; it proved a fundamental point: identify a need, provide a solution, and results will follow.
+                <br></br>
+                This bias for action led him to master the practical, complex world of mechanics at the Motorcycle Mechanics Institute. It wasn't just about learning repairs; it was about dissecting systems, mastering diagnostics, and taking ownership of outcomes. This commitment to excellence didn't go unnoticed. At a powersports dealership in the demanding environment of Mammoth Lakes, California, his skills and work ethic quickly set him apart, leading to rapid advancement and ultimately the key role of Shop Manager, overseeing critical operations.
+                <br></br>
+                But Lane’s drive extends beyond the workshop. Living in the Eastern Sierra, his keen observation skills identified further opportunities. As an experienced fisherman, he recognized the value of local expertise and launched a side venture offering guided fishing trips, capitalizing on his passion and knowledge. Similarly, seeing the logistical hurdles faced by hikers in the John Muir Wilderness, he initiated a personal shuttle service – a straightforward, resourceful solution using his own vehicle to fill a specific niche need. These weren't formally incorporated businesses, but clear demonstrations of identifying a gap and stepping in with an entrepreneurial solution.
+                <br></br>
+                This knack for blending mechanical understanding with logistical thinking culminated in his role as Operations Manager at South Lake. This wasn't a caretaker position; he was responsible for the heartbeat of the operation – managing staff, optimizing schedules, maintaining an entire fleet of rental boats, and ensuring the integrity of the docks. It demanded leadership, problem-solving under pressure, and the ability to keep a multi-faceted operation performing at its peak.
+              </div>
+              <div class="text-center text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+                Driven by Initiative, Defined by Action
+              </div>
+              <div class="p-4 sm:pl-1 text-xs md:text-base">
+                Some people wait for opportunities. Lane Smith creates them. His career hasn’t been a predictable climb up a single ladder, but a dynamic journey fueled by an innate drive to understand how things work, fix what’s broken, and build something better. It’s a path defined by hands-on action, strategic adaptation, and an entrepreneurial spirit that sees possibilities where others see obstacles.
+                <br></br>
+                Growing up immersed in the outdoor recreation culture of Southern California – hiking, fishing, backpacking – Lane developed an early appreciation for self-reliance, navigating challenges, and reading the environment. This proactive mindset quickly translated into recognizing opportunities. Back in middle school, observing a simple unmet need – thirsty students and no vending machines – wasn't just a passing thought; it was a call to action. He didn’t wait for permission; he sourced sodas, hauled a cooler, and launched his first venture. Selling out daily wasn't just luck; it proved a fundamental point: identify a need, provide a solution, and results will follow.
+                <br></br>
+                This bias for action led him to master the practical, complex world of mechanics at the Motorcycle Mechanics Institute. It wasn't just about learning repairs; it was about dissecting systems, mastering diagnostics, and taking ownership of outcomes. This commitment to excellence didn't go unnoticed. At a powersports dealership in the demanding environment of Mammoth Lakes, California, his skills and work ethic quickly set him apart, leading to rapid advancement and ultimately the key role of Shop Manager, overseeing critical operations.
+                <br></br>
+                But Lane’s drive extends beyond the workshop. Living in the Eastern Sierra, his keen observation skills identified further opportunities. As an experienced fisherman, he recognized the value of local expertise and launched a side venture offering guided fishing trips, capitalizing on his passion and knowledge. Similarly, seeing the logistical hurdles faced by hikers in the John Muir Wilderness, he initiated a personal shuttle service – a straightforward, resourceful solution using his own vehicle to fill a specific niche need. These weren't formally incorporated businesses, but clear demonstrations of identifying a gap and stepping in with an entrepreneurial solution.
+                <br></br>
+                This knack for blending mechanical understanding with logistical thinking culminated in his role as Operations Manager at South Lake. This wasn't a caretaker position; he was responsible for the heartbeat of the operation – managing staff, optimizing schedules, maintaining an entire fleet of rental boats, and ensuring the integrity of the docks. It demanded leadership, problem-solving under pressure, and the ability to keep a multi-faceted operation performing at its peak.
+              </div>
+              <div class="text-center text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+                Driven by Initiative, Defined by Action
+              </div>
+              <div class="p-4 sm:pl-1 text-xs md:text-base">
+                Some people wait for opportunities. Lane Smith creates them. His career hasn’t been a predictable climb up a single ladder, but a dynamic journey fueled by an innate drive to understand how things work, fix what’s broken, and build something better. It’s a path defined by hands-on action, strategic adaptation, and an entrepreneurial spirit that sees possibilities where others see obstacles.
+                <br></br>
+                Growing up immersed in the outdoor recreation culture of Southern California – hiking, fishing, backpacking – Lane developed an early appreciation for self-reliance, navigating challenges, and reading the environment. This proactive mindset quickly translated into recognizing opportunities. Back in middle school, observing a simple unmet need – thirsty students and no vending machines – wasn't just a passing thought; it was a call to action. He didn’t wait for permission; he sourced sodas, hauled a cooler, and launched his first venture. Selling out daily wasn't just luck; it proved a fundamental point: identify a need, provide a solution, and results will follow.
+                <br></br>
+                This bias for action led him to master the practical, complex world of mechanics at the Motorcycle Mechanics Institute. It wasn't just about learning repairs; it was about dissecting systems, mastering diagnostics, and taking ownership of outcomes. This commitment to excellence didn't go unnoticed. At a powersports dealership in the demanding environment of Mammoth Lakes, California, his skills and work ethic quickly set him apart, leading to rapid advancement and ultimately the key role of Shop Manager, overseeing critical operations.
+                <br></br>
+                But Lane’s drive extends beyond the workshop. Living in the Eastern Sierra, his keen observation skills identified further opportunities. As an experienced fisherman, he recognized the value of local expertise and launched a side venture offering guided fishing trips, capitalizing on his passion and knowledge. Similarly, seeing the logistical hurdles faced by hikers in the John Muir Wilderness, he initiated a personal shuttle service – a straightforward, resourceful solution using his own vehicle to fill a specific niche need. These weren't formally incorporated businesses, but clear demonstrations of identifying a gap and stepping in with an entrepreneurial solution.
+                <br></br>
+                This knack for blending mechanical understanding with logistical thinking culminated in his role as Operations Manager at South Lake. This wasn't a caretaker position; he was responsible for the heartbeat of the operation – managing staff, optimizing schedules, maintaining an entire fleet of rental boats, and ensuring the integrity of the docks. It demanded leadership, problem-solving under pressure, and the ability to keep a multi-faceted operation performing at its peak.
+              </div>
+            </div>
+        </div>
+      <!-- End Entrepreneurial Ventures Cards Grid -->
+
+    </section>
+    <!-- ==== End Entrepreneurial Section ==== -->
+      <!-- End Biography section -->
+
+    <!-- ==== Operations Manager Section ==== -->
+    <section class="mx-0 sm:mx-2 lg:mx-8 xl:mx-32 my-0 sm:my-6 flex flex-col overflow-hidden text-black dark:text-white bg-gray-900 sm:rounded-xl sm:dark:border shadow-md shadow-slate-400 dark:shadow-none">
+
+      <!-- Operations Manager Top Area (Intro) -->
+      <div class="mx-auto text-white flex flex-col items-center max-w-7xl" id="Project_Manager_Location">
+        <!-- Section Image --> 
+        <img
+          class="sm:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
+          src="assets/GolfCart.jpg" 
+          alt="Man driving a golf cart, representing operations"
+        />
+        <!-- Section Description -->
+        <d iv class="flex flex-col justify-between mx-2 p-2 lg:p-0 leading-normal">
+          <h2 class="p-4 text-center mb-2 text-4xl font-bold tracking-tight text-blue-500  dark:text-blue-500">
+            Managing Operations: 
+          </h2>  
+          <p class="p-4 text-s md:text-base lg:text-xl mb-3">
+            I approach every project with a hands-on mindset, prioritizing efficiency and precision in logistics management to ensure smooth operations and succes sful outcomes. With over a decade of experience in supervisory roles across industries such as outdoor recreation, e-commerce, and small business management, I have developed a comprehensive skill set in logistics planning, inventory control, and operational execution.Throughout my career, I have consistently demonstrated the ability to streamline processes, manage resources effectively, and adapt to dynamic environments. From overseeing supply chain operations and equipment organization to implementing safety protocols and coordinating team efforts, I have a proven track record of optimizing workflows to meet deadlines and achieve objectives. My attention to detail ensures that every aspect of logistics, from planning to execution, runs seamlessly.
+            <br><br>
+            As a co-founder of a small business, I have taken on end-to-end responsibility for product management, shipping logistics, and inventory systems. This entrepreneurial experience has honed my ability to anticipate challenges, implement proactive solutions, and maintain clear communication with both team members and external stakeholders. I thrive in roles that require meticulous coordination and strategic problem-solving. My leadership style emphasizes collaboration and adaptability, enabling me to build strong teams and maintain high standards of efficiency in complex and high-pressure situations. Whether managing a fleet of equipment, ensuring compliance with safety regulations, or optimizing operational strategies, I am dedicated to delivering results that align with organizational goals.
+          </p>
+        </div>
+      </div>
+      <!-- End Operations Manager Top Area -->
+
+      <!-- Operations Management Experience Cards Grid -->  
+      <div class="grid p-4 xl:p-8 gap-4 xl:gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 dark:text-white">
+
+        <!-- Card: Professional River Outfitters --> 
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-64 object-cover object-top border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/PRO.jpg"
+            alt="River rafting equipment ready for transport"
+          />
+          <div class="p-4">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Professional River Outfitters
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Drive Manager & Field Supervisor
+            </div>
+            <div class="font-bold text-base">2017-2020</div>
+            <div class="text-xs md:text-sm">
+              <div>As a seasoned outdoor adventure coordinator and logistics supervisor, I specialized in providing top-tier service to clients embarking on exhilarating multi-week whitewater rafting trips down the Colorado River in the Grand Canyon.
+              <br><br>
+              As Drive Manager, I coordinated drivers for client transport to and from the river and managed trip bookings based on driver and vehicle availability. My duties included scheduling, maintaining vehicles, and performing routine maintenance like oil changes to ensure smooth operations.
+              <br><br>
+              As a field supervisor, I oversaw logistics for whitewater rafting trips, including managing rental equipment, transportation, multi-week food preparation, and safety systems, ensuring compliance with National Park Service guidelines. My role involved delivering safety briefings, providing hands-on support and education in rafting, camping, first aid, and food systems. I worked closely with groups of up to 16 participants, often international, from initial setup through overnight camping, addressing questions, preparing meals, and ensuring a safe, well-organized experience.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card: Canyon River Equipment Outfitters -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-40 sm:h-64 object-left object-top border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/REO.jpg"
+            alt="River equipment laid out by a canyon river"
+          />
+          <div class="p-4">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Canyon River Equipment Outfitters
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Field Manager
+            </div>
+            <div class="font-bold text-base">2014-2020</div>
+            <div class="text-xs md:text-sm">
+              <div>In my role as a field manager, I oversaw logistics for extended whitewater rafting trips while managing and directing a team of employees to ensure smooth operations. My duties included organizing and maintaining rental equipment, coordinating transportation, and managing multi-week food supplies and safety systems in strict adherence to National Park Service guidelines.
+              <br><br>I conducted safety briefings and provided practical training on rafting, camping, first aid, and meal systems. Working with diverse groups, often international, I facilitated their setup, addressed questions, prepared meals, and ensured a safe, well-coordinated, and seamless experience throughout the trip.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card: DJ's Snowmobile Adventures -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-40 sm:h-64 object-cover object-bottom border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/DJS.jpg"
+            alt="Snowmobiles lined up in a snowy landscape"
+          />
+          <div class="p-4">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              DJ's Snowmobile Adventures
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Field Manager
+            </div>
+            <div class="font-bold text-base">2007-2012</div>
+            <div class="text-xs md:text-sm">
+              <div>As Field Manager at DJ's Snowmobile Adventures, I was responsible for overseeing snowmobile maintenance, scheduling repairs, and ordering parts to ensure operational readiness. I managed guide assignments, pairing them with client groups based on compatibility, and adjusted staffing levels to align with bookings and business demands.
+              <br><br>In addition to running the register, taking reservations, and providing local historical and geographical insights, I coordinated with search and rescue for emergency situations. I conducted safety briefings, monitored client adherence to company policies, and made critical decisions regarding weather-related shutdowns. My role emphasized client safety and satisfaction while maintaining smooth and efficient operations in challenging backcountry conditions.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card: Zephyr Whitewater Expeditions -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-40 sm:h-64 object-cover object-cemter border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/Zephyr.jpg"
+            alt="Rafting group navigating rapids"
+          />
+          <div class="p-4">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Zephyr Whitewater Expeditions
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Trip Leader & Guide
+            </div>
+            <div class="font-bold text-base">2011-2015</div>
+            <div class="text-xs md:text-sm">
+              <div>
+              As a Trip Leader and Guide at Zephyr Whitewater Expeditions, I supervised the execution of daily rafting operations, ensuring trips remained on schedule and client needs were met. I conducted safety seminars prior to departure, monitored client well-being throughout, and led rescue operations when necessary. 
+              <br><br>My responsibilities included assigning tasks to staff, coordinating meal preparation and cleanup following NPS leave-no-trace guidelines, and handling transportation logistics, including vehicle inspections and safety checks. I engaged clients to create positive experiences, promoted future trips, and enriched their journeys with guided hikes and interactive activities.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card: Whitewater Voyages -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-40 sm:h-64 object-cover object-top border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/Voyages.jpg"
+            alt="Raft guides preparing equipment by a river"
+          />
+          <div class="p-4">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+              Whitewater Voyages
+            </div>
+            <div class="font-bold text-base sm:text-lg sm:mb-1">
+              Trip Leader, Guide & Bus Driver
+            </div>
+            <div class="font-bold text-base">2011-2015</div>
+            <div class="text-xs md:text-sm">
+              <div>At Whitewater Voyages, I served as a Trip Leader, Guide, and Bus Driver, overseeing trip logistics while ensuring client safety and satisfaction. My responsibilities included assigning tasks to staff, delivering safety seminars, and guiding clients through memorable outdoor experiences.
+              <br><br>I maintained and operated company vehicles, ensuring safe and reliable transportation for clients. Additional duties included meal coordination, equipment preparation and inspection, and fostering a positive atmosphere to enhance both team collaboration and client experiences.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card: South Lake Boat Landing -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-40 sm:h-64 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/SouthLake.jpg"
+            alt="Lane standing in water wearing a wetsuit, retrieving an outboard boat motor that sank after a storm"
+          />
+          <div class="p-4">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl"> 
+              South Lake Boat Landing
+            </div>
+            <div class="font-bold text-base sm:text-lg">
+              Operations Supervisor
+            </div>
+            <div class="font-bold text-base">2006-2010</div>
+            <div class="text-xs md:text-sm">
+              <div>As Operations Supervisor at South Lake Boat Landing, I managed all aspects of operations under a Forest Service lease. This included maintaining and repairing boats, overseeing dock and mooring anchor upkeep, and running a small tackle shop.
+              <br><br>I handled inventory management, staff training, and scheduling, creating work lists to ensure productivity. I was responsible for making weather-related closure decisions, collecting contracts, and ensuring client safety on the lake. Additionally, I instructed clients on boat usage and provided education on local fishing techniques and  regulations, while maintaining strong vendor relationships and operational efficiency.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- End Operations Management Experience Cards Grid -->
+
+    </section>
+    <!-- ==== End Operations Manager Section ==== -->
+
+    <!-- ==== Software Developer Section ==== --> 
+    <section class="mx-0 sm:mx-2 lg:mx-16 xl:mx-32 my-0 sm:my-6 flex flex-col overflow-hidden text-black dark:text-white bg-gray-900 sm:rounded-xl sm:dark:border shadow-md shadow-slate-400 dark:shadow-none">
+
+      <!-- Software Developer Top Area (Intro) --> 
+      <div class="mx-auto text-white flex flex-col items-center max-w-7xl" id="Software_Location">
+        <!-- Section Image -->
+        <img
+          class="lg:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
+          src="assets/Programmer.jpg"
+          alt="Stylized image representing software development"
+        />
+        <!-- Section Description -->
+        <div class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal">
+          <h5 class="p-4 text-center mb-2 text-4xl font-bold tracking-tight text-blue-500 dark:text-blue-500">
+            Software Projects: The Future Is Now
+          </h5>
+          <p class="p-4 text-s md:text-base lg:text-xl mb-3">
+            I approach software development with a hands-on, self-taught mindset, combining a passion for learning with a determination to create impactful solutions. As a newer programmer, I have independently built a strong foundation in languages like JavaScript and Python, as well as frameworks such as Next.js and Discord.js. My learning journey has been fueled by curiosity and a commitment to staying up-to-date with modern development tools and technologies.
+            <br><br>
+            Despite being relatively new to the field, I've already developed practical skills by creating real-world projects such as custom web applications and productivity tools. My experience includes integrating advanced APIs like OpenAI's to build intelligent systems, as well as troubleshooting and refining code to deliver functional and user-friendly applications. Each project has deepened my understanding of programming and strengthened my problem-solving abilities.
+            As a self-starter and entrepreneur, I've applied these programming skills to enhance the operations of my small business. From automating workflows to improving customer experiences, I've used technology to solve challenges and optimize efficiency. This hands-on experience has also given me insight into how software development aligns with larger business objectives. I'm continually experimenting with new technologies and frameworks to expand my expertise and refine my capabilities. I believe my self-taught background not only demonstrates my technical skills but also reflects my resilience, resourcefulness, and ability to learn independently—qualities I bring to every project.
+          </p>
+        </div> 
+      </div>
+      <!-- End Software Developer Top Area -->
+
+      <!-- Software Developer Projects Cards Grid -->
+      <div class="grid p-4 xl:p-8 gap-4 xl:gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 dark:text-white"> 
+
+        <!-- Card: GPT-BUDDY -->
+        <div class="flex flex-col justify-between p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-64 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+              src="assets/GPTBUDDY.png"
+              alt="Logo or screenshot for GPT AI Buddy Discord Bot"
+            />
+            <div class="p-4">
+              <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
+                AI Buddy
+              </h2>
+              <p class="text-xs md:text-sm">
+                This Discord bot uses REST APIs from OpenAI to harness the full functionality of the latest AI technologies. It is capable of using any ChatGPT model as well as DALL·E 3 to generate images from text prompts. Its "personality," response format, and "expertise" are fully customizable for any specific use case
+              </p>
+            </div>
+          </div>
+          <!-- Explore Button -->
+           <div class="h-fit p-2">
+            <a 
+              target="_blank"
+              class="inline-block p-3 mb-2 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+              href="https://github.com/Lane-G-Smith/Discord-Bot-Vanilla-JS-GPT-4"
+            >
+            Explore
+            </a>
+          </div>
+        </div>
+
+        <!-- Card: Lots Of Bots -->
+        <div class="flex flex-col justify-between p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>  
+            <img
+              class="w-full h-36 sm:h-64 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+              src="assets/Discord.jpg"
+              alt="Discord logo or related imagery" 
+            />
+            <div class="p-4">
+              <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
+                Lots Of Bots
+              </h2>
+              <p class="text-xs md:text-sm">
+                This website is a compilation of Discord bots that I made for my Discord servers. These bots provide comic relief as well as help with certain tasks.
+              </p>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <div class="w-full h-fit p-2">
+            <a
+              target="_blank"
+              class="inline-block p-3 m-1 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+              href="https://lane-g-smith.github.io/Lanesmith.Info-Discord-Bots/"
+            >
+              Explore
+            </a>
+          </div>
+        </div>
+
+        <!-- Card: Character AI Clone -->
+        <div class="flex flex-col justify-between p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-64 object-cover object-top border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+              src="assets/CharacterAI.jpg"
+              alt="AI generated robot face with a friendly disposition"
+            />
+            <div class="p-4">
+              <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
+                Character.AI Concept React App
+              </h2>
+              <p class="text-xs md:text-sm">
+                A React Application inspired by Character.ai. This project was a collaborative effort and serves as a central hub that interfaces with OpenAI's REST APIs to create interactive AI characters and personalities. A new iteration of this project has been made privately for future development and monetization, but the initial framework is still public.
+              </p>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <div class="w-full h-fit p-2">
+            <a
+              target="_blank"
+              class="inline-block p-3 m-1 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+              href="https://github.com/Lane-G-Smith/AI-Personalities-React-App" 
+            >
+              Explore
+            </a>
+          </div>
+        </div>
+
+        <!-- Card: Apps Script -->
+        <div class="flex flex-col justify-between p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-64 object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/512px-Google_Apps_Script.svg.png"
+              alt="Google Apps Scripts Logo"
+            />
+            <div class="p-4"> 
+              <h2 class="font-bold text-xl sm:text-2xl text-blue-700 dark:text-blue-500">
+                Chat-GPT Enabled Docs
+              </h2>
+              <p class="text-xs md:text-sm">
+                A simple javaScript program that enables Chat-GPT functionality in Google Sheets using Apps Script.
+              </p>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <div class="w-full h-fit p-2"> 
+            <a
+              target="_blank"
+              class="inline-block p-3 m-1 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+              href="https://github.com/Lane-G-Smith/ChatGPT-Google-Sheets-Apps-Script"
+              >
+              Explore
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Software Developer Projects Cards Grid -->
+
+    </section>
+    <!-- ==== End Software Developer Section ==== -->
+
+    <!-- ==== Entrepreneurial Section ==== -->
+    <section class="mx-0 sm:mx-2 lg:mx-16 xl:mx-32 my-0 sm:my-6 flex flex-col overflow-hidden text-black dark:text-white bg-gray-900 sm:rounded-xl sm:dark:border shadow-md shadow-slate-400 dark:shadow-none">
+
+      <!-- Entrepreneur Top Area (Intro) -->
+      <div class="mx-auto text-white flex flex-col items-center max-w-7xl" id="Entrepreneur_Location">
+        <!-- Section Image -->
+        <img
+          class="lg:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
+          src="assets/Photographer.jpg"
+          alt="Lane Smith holding a camera, representing entrepreneurship"
+        />
+        <!-- Section Description -->
+        <div class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal">
+          <h5 class="p-4 text-center mb-2 text-4xl font-bold tracking-tight text-blue-500 dark:text-blue-500">
+            Entrepreneur: Turning Skill Into Value
+          </h5>
+          <p class="text-white p-4 text-s md:text-base lg:text-xl mb-3 font-normal">
+            Spotting an opportunity is one thing; actually building something from it requires rolling up your sleeves and diving into the unglamorous, essential work. True entrepreneurship, at any scale, means understanding the entire lifecycle – from initial concept to final delivery and beyond. It demands being a relentless self-starter because no one else is going to set your priorities or chase your deadlines. It’s about mastering the constant juggle: managing schedules, allocating limited resources effectively, multitasking without dropping critical balls, and navigating the inevitable friction points, including handling challenging customer interactions with professionalism and finding solutions. It’s knowing that the responsibility stops with you.
+            <br><br>
+            This isn't necessarily about chasing billion-dollar valuations; often, it's about recognizing the inherent value in skills and passions developed along the way and figuring out how to translate that into something the market needs or desires. It's the practical application of turning aptitude into action, knowledge into a service, or interest into income. Success in this arena hinges on understanding the fundamentals: delivering consistently, meeting commitments, and crucially, aiming to over-deliver. Building trust and reputation, especially when starting small, isn't optional – it's the foundation. It requires an understanding that every interaction matters and that sustainable success is built on providing genuine value, day in and day out.
+          </p>
+        </div>
+      </div>
+      <!-- End Entrepreneur Top Area -->
+
+      <!-- Entrepreneurial Ventures Cards Grid -->
+      <div class="grid p-4 xl:p-8 gap-4 xl:gap-8 grid-cols-1 md:grid-cols-2 dark:text-white">
+
+        <!-- Card: Lane G Photography -->
+        <div class="flex flex-col justify-between p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-96 object-cover border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+              src="assets/LGPCouple.jpg"
+              alt="Couple posing for a photo by Lane G Photography"
+            />
+            <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+              <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+                Lane G Photography
+              </div>
+              <div class="font-bold text-base sm:text-lg sm:mb-1">
+                Owner & Founder
+              </div>
+              <div class="font-bold text-base mb-1 dark:text-white">2020</div>
+              <div class="p-4 sm:pl-1 text-xs md:text-sm">
+                In 2020, I began offering my photography services for hire as a way to supplement my income during the temporary shutdown of the National Parks due to COVID-19. At that time, I was employed by a company that relied heavily on visitors to the Grand Canyon National Park. To establish my presence in the photography market, I built a professional website, developed a robust social media strategy, and effectively marketed my services to secure bookings. Since then, I have successfully photographed a diverse range of events, including weddings, family portraits, maternity shoots, engagements, album covers, corporate retreats, graduation ceremonies, and numerous local events. Through strategic automation of many business processes, my photography venture has evolved into a largely passive source of income, requiring only occasional in-person engagements.
+              </div>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <div class="w-full h-fit p-2"> 
+            <a
+              target="_blank"
+              class="inline-block p-3 m-1 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+              href="https://www.lanegphotography.com/"
+              >
+              Explore
+            </a>
+          </div>
+        </div>
+
+        <!-- Card: Candle Magic Studio -->
+        <div class="flex flex-col justify-between p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <div>
+            <img
+              class="w-full h-36 sm:h-96 object-cover border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+              src="assets/CandleMagic.jpg"
+              alt="Candle Magic Studio logo of cartoon witches face smiling, black and yellow colors"
+            />
+            <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+              <div class="text-blue-700 dark:text-blue-500 font-bold text-lg sm:text-2xl sm:mb-1">
+                Candle Magic Studio
+              </div>
+              <div class="font-bold text-base sm:text-lg sm:mb-1">
+                Co-Owner & Co-Founder
+              </div>
+              <div class="font-bold text-base sm:text-lg mb-1 dark:text-white">2023</div>
+              <div class="pb-2 pl-4 sm:pl-1 text-xs md:text-sm">
+                One of the ventures I embarked on was the development of a successful candle business. Initially, my wife began her journey as a wax apprentice at a renowned candle company, quickly advancing to the roles of lead artist and trainer, and ultimately serving as the general manager for three distinct candle stores. When the company decided to close its brick-and-mortar locations in favor of individual vendors, we seized the opportunity to acquire all of the existing equipment with the prior owner's endorsement. This pivotal moment allowed us to launch our own e-commerce candle business from the ground up. In our first year, we achieved impressive sales exceeding $40,000, and we continue to experience significant growth each month.
+              </div>
+            </div>
+          </div>
+          <!-- Explore Button -->
+          <div class="w-full h-fit p-2"> 
+            <a
+              target="_blank"
+              class="inline-block p-3 m-1 bg-blue-700 text-white text-base sm:text-lg font-bold w-fit rounded-xl hover:scale-125 duration-100 hover:duration-100 shadow-md shadow-slate-600 dark:shadow-zinc-900"
+              href="https://www.candlemagicstudio.com/"
+              >
+              Explore
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Entrepreneurial Ventures Cards Grid -->
+
+    </section>
+    <!-- ==== End Entrepreneurial Section ==== -->
+
+    <!-- ==== Education Section ==== -->
+    <section class="mx-0 sm:mx-2 lg:mx-16 xl:mx-32 sm:my-6 flex flex-col overflow-hidden text-black dark:text-white bg-gray-900 sm:rounded-xl sm:dark:border shadow-md shadow-slate-400 dark:shadow-none">
+
+      <!-- Education Top Area (Intro) -->
+      <div class="mx-auto text-white flex flex-col items-center max-w-7xl"> <!-- Removed duplicate ID -->
+        <!-- Section Image -->
+        <img
+          class="lg:border w-full object-cover h-25 sm:m-4 sm:h-72 sm:w-72 sm:rounded-full"
+          src="assets/Education.jpg"
+          alt="Books and graduation cap representing education"
+        />
+        <!-- Section Description -->
+        <div class="flex flex-col justify-between mx-2 p-2 lg:mx-12 leading-normal">
+          <h5 class="p-4 text-center mb-2 text-4xl font-bold tracking-tight text-blue-500 dark:text-blue-500">
+            Education: An Incomplete Summary
+          </h5>
+          <p class="p-4 text-s md:text-base lg:text-xl mb-3 font-normal">
+            Formal learning provides valuable frameworks and benchmarks, marking points of progress along the way. These structured experiences certainly contribute to a knowledge base. However, the most critical skills – the ones that drive real results and navigate complex, unpredictable situations – are often forged outside the classroom. They are honed through direct engagement, persistent trial-and-error, and the necessity of finding solutions when no clear path is provided. The ability to truly understand and master a challenge comes from actively doing, not just studying.
+            <br><br>
+            This practical education is continuous and often self-directed, fueled by curiosity and the demands of the task at hand. It's about immersing oneself in a problem, seeking out necessary information independently, adapting quickly to changing circumstances, and developing the resilience to push through obstacles. While credentials note specific achievements, the deeper capacity for effective action, innovative thinking, and leading through ambiguity is cultivated through hands-on experience and the relentless pursuit of practical mastery. The proof, ultimately, is in the application and the outcome.
+          </p>
+        </div>
+      </div>
+      <!-- End Education Top Area -->
+
+      <!-- Education Cards Grid -->
+      <div class="grid p-4 xl:p-8 gap-4 xl:gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-5 dark:text-white">
+
+        <!-- Card: Northern Arizona University -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/NAU.jpg"
+            alt="Northern Arizona University campus or logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              Northern Arizona University
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              Bachelor of science in psychology<br />
+              Minor in Biological science
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Psychopharmacology</li>
+              <li>Cognitive & Behavioral Neuroscience</li>
+              <li>Developmental Psychology</li>
+              <li>Neuropsychology</li>
+              <li>Industrial Orgonizational Psychology</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: Cypress College -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/CypressCollege.jpg"
+            alt="Cypress College campus or logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              Cypress College
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              <p>Pre-Medical</p>
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Anatomy</li>
+              <li>Physiology</li>
+              <li>Microbiology</li>
+              <li>Chemistry</li>
+              <li>Medical Terminology</li>
+              <li>Statistics</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: Fullerton College -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/Fullerton College.jpg"
+            alt="Fullerton College campus or logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              Fullerton College
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              General Education
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Language</li>
+              <li>Economics</li>
+              <li>Mathematics</li>
+              <li>History</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: The Odin Project -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/OdinProject.jpg"
+            alt="The Odin Project logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              The Odin Project
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              Full Stack Javascript
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>MongoDB</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>NodeJS</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: CIEMT -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/CIEMT.jpg"
+            alt="California Institute Of EMT logo or related image"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              California Institute Of EMT
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              EMT Certification
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Emergency Medicine Education</li>
+              <li>Internship In Ambulance</li>
+              <li>Practical Examination</li>
+              <li>NREMT Examination And Licensing</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: NOLS -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/NOLS.png"
+            alt="NOLS (National Outdoor Leadership School) logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              NOLS
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              Wilderness EMT & First Responder
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Triage</li>
+              <li>Emergency Stablization And Extraction</li>
+              <li>Stress And Panic Management</li>
+              <li>Realistic Scenario Field Training</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: Arizona Medical Training Institute -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/AMTI.jpg"
+            alt="Arizona Medical Training Institute logo or related image"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              Arizona Medical Training Institute
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              Certified Nursing Assistant Training
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Hands On Training</li>
+              <li>Rehabilitation Center Internship</li>
+              <li>Long-Term Care Internship</li>
+              <li>State Certification And Licensing</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: American Truck Driving School -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/Truck.jpg"
+            alt="Semi-truck representing truck driving school"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              American Truck Driving School
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              Commercial Drivers License Training
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Class A CDL</li>
+              <li>Unrestricted Transmission</li>
+              <li>Doubles & Tripples Endorsements</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: Motorcycle Mechanics Institute (MMI) -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/MMI.jpg"
+            alt="Motorcycle or small engine image representing MMI"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              Motorcycle Mechanics Institute
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              Small Engine Technician Training
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Certified Technician (Honda, Yamaha, Kawasaki)</li>
+              <li>Motorcycle, ATV, PWC, Snowmobile, Generator</li>
+              <li>Electrical Systems</li>
+              <li>Transmissions</li>
+              <li>Two & Four Stroke Engines</li>
+              <li>Hydraulic Systems</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card: Sonora High School -->
+        <div class="p-2 xl:p-4 bg-white dark:bg-gray-950 overflow-hidden border rounded-xl shadow-md shadow-slate-600 dark:shadow-none">
+          <img
+            class="w-full h-36 sm:h-48 object-cover object-center border rounded-xl shadow-md shadow-slate-600 dark:shadow-none"
+            src="assets/Sonora High School.jpg"
+            alt="Sonora High School building or logo"
+          />
+          <div class="sm:px-6 sm:py-2 p-1 dark:text-white">
+            <div class="text-blue-700 dark:text-blue-500 font-bold text-base sm:text-lg sm:mb-1">
+              Sonora High School
+            </div>
+            <div class="font-bold text-s md:text-base sm:mb-1">
+              High School Diploma
+            </div>
+            <ul class="pb-2 pl-4 sm:pl-1 list-disc text-s md:text-base">
+              <li>Football Team</li>
+              <li>Swim Team</li>
+              <li>Autoshop & Woodshop</li>
+              <li>Graduating Class Of 2003</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <!-- End Education Cards Grid -->
+
+    </section>
+    <!-- ==== End Education Section ==== -->
+
+    <!-- ==== Footer Section ==== -->
+    <footer class="mt-12 mb-8 flex flex-col sm:flex-row justify-around">
+      <h2 class="text-gray-900 dark:text-white font-bold pt-4 text-center align-text-bottom sm:self-end">
+        Web Design By Lane Smith 2023
+      </h2>
+      <!-- Add other footer elements if needed, like contact info or copyright year -->
+    </footer>
+    <!-- ==== End Footer Section ==== -->
+
+    <!-- ==== Scripts ==== -->
+    <!-- Main custom script (if any interactive elements beyond dark mode) -->
+    <script src="./scripts/main.js"></script>
+    <!-- Dark mode toggle script -->
+    <script src="./scripts/darkmode.js"></script>
+    <!-- Carousel script (if you have a carousel somewhere not shown) -->
+    <script src="./scripts/carousel.js"></script>
+    <!-- ==== End Scripts ==== -->
+
+  </body>
+</html>
