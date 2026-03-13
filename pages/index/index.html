@@ -4,89 +4,134 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Lane Smith Portfolio</title>
+    <title>Lane Smith | Portfolio</title>
     <link href="../../styles/output.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a8cc471b41.js" crossorigin="anonymous"></script>
     <style>
-      /* Hero Section Animation */
-      @keyframes fadeUp {
-        from {
-          opacity: 0;
-          transform: translateY(30px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
+      /* Hero section custom styles */
+      .hero-section {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+        position: relative;
+        overflow: hidden;
       }
       
-      .animate-fade-up {
-        animation: fadeUp 1s ease-out forwards;
+      .hero-content {
+        max-width: 800px;
+        text-align: center;
+        z-index: 10;
       }
       
-      .animate-delay-1 {
-        animation-delay: 0.2s;
-      }
-      
-      .animate-delay-2 {
-        animation-delay: 0.4s;
-      }
-      
-      /* Hero content styling */
       .hero-name {
         font-size: 3.5rem;
-        font-weight: 700;
-        background: linear-gradient(135deg, #1a56db 0%, #3b82f6 50%, #2563eb 100%);
+        font-weight: 800;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, #1a56db 0%, #3b82f6 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
       }
       
       .hero-tagline {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         font-weight: 500;
-        color: #6b7280;
+        color: #475569;
+        margin-bottom: 2rem;
+        opacity: 0.9;
       }
       
       .hero-intro {
-        font-size: 1.1rem;
-        line-height: 1.7;
-        color: #4b5563;
+        font-size: 1.125rem;
+        line-height: 1.75;
+        color: #64748b;
+        margin-bottom: 2.5rem;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .hero-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1rem 2.5rem;
+        background: linear-gradient(135deg, #1a56db 0%, #2563eb 100%);
+        color: white;
+        font-weight: 600;
+        border-radius: 0.75rem;
+        text-decoration: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 15px rgba(26, 86, 219, 0.3);
+      }
+      
+      .hero-cta:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(26, 86, 219, 0.4);
+      }
+      
+      /* Animated background elements */
+      .hero-bg-circle {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(26, 86, 219, 0.1) 0%, transparent 70%);
+        z-index: 1;
+      }
+      
+      .hero-bg-circle-1 {
+        width: 500px;
+        height: 500px;
+        top: -100px;
+        right: -100px;
+      }
+      
+      .hero-bg-circle-2 {
+        width: 300px;
+        height: 300px;
+        bottom: -50px;
+        left: -50px;
       }
     </style>
   </head>
 
   <body class="dark:bg-gray-900 bg-slate-50 overflow-x-hidden">
     <!-- Hero Section -->
-    <header class="w-full h-screen flex flex-col justify-center items-center px-6 sm:px-12 lg:px-24 bg-gradient-to-b from-blue-50 to-slate-50 dark:from-gray-900 dark:to-gray-800">
-      <div class="max-w-4xl w-full text-center animate-fade-up">
+    <section class="hero-section dark:bg-gray-900 dark:text-white">
+      <!-- Background decorative elements -->
+      <div class="hero-bg-circle hero-bg-circle-1"></div>
+      <div class="hero-bg-circle hero-bg-circle-2"></div>
+      
+      <div class="hero-content">
         <!-- Lane Smith's Name -->
-        <h1 class="hero-name mb-4 animate-delay-1">Lane Smith</h1>
+        <h1 class="hero-name animate-fade-up">Lane Smith</h1>
         
-        <!-- Professional Tagline -->
-        <p class="hero-tagline mb-6 animate-delay-1">
-          Creative Professional & Digital Designer
+        <!-- Tagline -->
+        <p class="hero-tagline animate-fade-up animate-delay-1">
+          Building Digital Experiences That Matter
         </p>
         
         <!-- Professional Introduction -->
-        <p class="hero-intro max-w-2xl mx-auto animate-delay-2">
-          I am a passionate professional dedicated to crafting exceptional digital experiences. 
-          With expertise in creative design, web development, and strategic thinking, 
-          I help transform ideas into impactful realities. Let's collaborate to bring your vision to life.
+        <p class="hero-intro animate-fade-up animate-delay-2">
+          I'm a passionate software engineer and creative developer specializing in 
+          crafting exceptional user experiences. With a background in full-stack development 
+          and a love for clean code and elegant design, I help transform ideas into 
+          powerful, scalable applications that drive real-world impact.
         </p>
         
-        <!-- Social Links / CTA -->
-        <div class="mt-8 animate-delay-2">
-          <a href="#about" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg transition duration-300 shadow-lg hover:shadow-xl">
-            Explore My Work
-          </a>
-        </div>
+        <!-- Call to Action Button -->
+        <a href="#about" class="hero-cta animate-fade-up animate-delay-3">
+          <i class="fa-solid fa-arrow-down"></i>
+          Explore My Work
+        </a>
       </div>
-    </header>
+    </section>
     
-    <!-- Continue with existing content sections -->
-    <main class="w-full min-h-screen">
-      <!-- Your existing portfolio/content sections would continue here -->
-    </main>
+    <!-- Rest of your existing content would go here -->
+    <div class="min-h-screen">
+      <!-- Add your existing navbar, projects, and other sections below -->
+    </div>
   </body>
 </html>

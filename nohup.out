@@ -20,3 +20,5 @@ Traceback (most recent call last):
     return io.open(self, mode, buffering, encoding, errors, newline)
            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: '/home/garrett/automated-local-llm-test/run/.multi-agent-state.json'
+Terminated
+/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/autonomous-local-llm: line 15: unexpected EOF while looking for matching `"'
