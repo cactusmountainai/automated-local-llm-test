@@ -31,28 +31,6 @@
       .animate-delay-2 {
         animation-delay: 0.4s;
       }
-      
-      /* Hero content styling */
-      .hero-name {
-        font-size: 3.5rem;
-        font-weight: 700;
-        background: linear-gradient(135deg, #1a56db 0%, #3b82f6 50%, #2563eb 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-      
-      .hero-tagline {
-        font-size: 1.25rem;
-        font-weight: 500;
-        color: #6b7280;
-      }
-      
-      .hero-intro {
-        font-size: 1.1rem;
-        line-height: 1.7;
-        color: #4b5563;
-      }
     </style>
   </head>
 
@@ -84,9 +62,15 @@
       </div>
     </header>
     
-    <!-- Continue with existing content sections -->
+    <!-- Main Content Area -->
     <main class="w-full min-h-screen">
-      <!-- Your existing portfolio/content sections would continue here -->
+      <!-- Portfolio/Projects Section -->
+      <section id="portfolio" class="w-full py-24 px-6 sm:px-12 lg:px-24 dark:bg-gray-900 bg-slate-50">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold mb-12 text-center dark:text-white">Featured Work</h2>
+          <!-- Projects would be listed here -->
+        </div>
+      </section>
     </main>
   </body>
 </html>
