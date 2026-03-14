@@ -8,113 +8,44 @@
     <link href="../../styles/output.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a8cc471b41.js" crossorigin="anonymous"></script>
     <style>
-      /* Hero section custom styles */
-      .hero-section {
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 4rem 2rem;
-        background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
-        position: relative;
-        overflow: hidden;
+      /* Tailwind dark mode classes */
+      .dark .hero-section {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
       }
       
-      .hero-content {
-        max-width: 800px;
-        text-align: center;
-        z-index: 10;
-      }
-      
-      .hero-name {
-        font-size: 3.5rem;
-        font-weight: 800;
-        margin-bottom: 1rem;
-        background: linear-gradient(135deg, #1a56db 0%, #3b82f6 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-      
-      .hero-tagline {
-        font-size: 1.5rem;
-        font-weight: 500;
-        color: #475569;
-        margin-bottom: 2rem;
-        opacity: 0.9;
-      }
-      
-      .hero-intro {
-        font-size: 1.125rem;
-        line-height: 1.75;
-        color: #64748b;
-        margin-bottom: 2.5rem;
-        max-width: 650px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      
-      .hero-cta {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.75rem;
-        padding: 1rem 2.5rem;
-        background: linear-gradient(135deg, #1a56db 0%, #2563eb 100%);
+      .dark .hero-name,
+      .dark .hero-tagline,
+      .dark .hero-intro,
+      .dark .hero-cta {
         color: white;
-        font-weight: 600;
-        border-radius: 0.75rem;
-        text-decoration: none;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        box-shadow: 0 4px 15px rgba(26, 86, 219, 0.3);
       }
       
-      .hero-cta:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(26, 86, 219, 0.4);
-      }
-      
-      /* Animated background elements */
-      .hero-bg-circle {
-        position: absolute;
-        border-radius: 50%;
-        background: radial-gradient(circle, rgba(26, 86, 219, 0.1) 0%, transparent 70%);
-        z-index: 1;
-      }
-      
-      .hero-bg-circle-1 {
-        width: 500px;
-        height: 500px;
-        top: -100px;
-        right: -100px;
-      }
-      
-      .hero-bg-circle-2 {
-        width: 300px;
-        height: 300px;
-        bottom: -50px;
-        left: -50px;
+      .dark .hero-bg-circle {
+        background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
       }
     </style>
   </head>
 
-  <body class="dark:bg-gray-900 bg-slate-50 overflow-x-hidden">
-    <!-- Hero Section -->
-    <section class="hero-section dark:bg-gray-900 dark:text-white">
-      <!-- Background decorative elements -->
-      <div class="hero-bg-circle hero-bg-circle-1"></div>
-      <div class="hero-bg-circle hero-bg-circle-2"></div>
+  <body class="dark:bg-gray-900 bg-slate-50 dark:text-white">
+    <!-- Hero Section with Tailwind CSS -->
+    <section class="hero-section min-h-screen flex items-center justify-center px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 relative overflow-hidden">
+      <!-- Animated background circles -->
+      <div class="hero-bg-circle absolute top-0 right-0 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full blur-3xl"></div>
+      <div class="hero-bg-circle absolute bottom-0 left-0 translate-x-1/2 translate-y-1/2 w-[300px] h-[300px] rounded-full blur-3xl"></div>
       
-      <div class="hero-content">
+      <div class="hero-content max-w-4xl mx-auto text-center z-10">
         <!-- Lane Smith's Name -->
-        <h1 class="hero-name animate-fade-up">Lane Smith</h1>
+        <h1 class="hero-name text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent animate-fade-up">
+          Lane Smith
+        </h1>
         
         <!-- Tagline -->
-        <p class="hero-tagline animate-fade-up animate-delay-1">
+        <p class="hero-tagline text-2xl md:text-3xl font-medium text-slate-700 dark:text-slate-300 mb-8 opacity-90 animate-fade-up animate-delay-1">
           Building Digital Experiences That Matter
         </p>
         
         <!-- Professional Introduction -->
-        <p class="hero-intro animate-fade-up animate-delay-2">
+        <p class="hero-intro text-lg md:text-xl text-slate-600 dark:text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed animate-fade-up animate-delay-2">
           I'm a passionate software engineer and creative developer specializing in 
           crafting exceptional user experiences. With a background in full-stack development 
           and a love for clean code and elegant design, I help transform ideas into 
@@ -122,16 +53,11 @@
         </p>
         
         <!-- Call to Action Button -->
-        <a href="#about" class="hero-cta animate-fade-up animate-delay-3">
+        <a href="#about" class="hero-cta inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 animate-fade-up animate-delay-3">
           <i class="fa-solid fa-arrow-down"></i>
-          Explore My Work
+          Explore
         </a>
       </div>
     </section>
-    
-    <!-- Rest of your existing content would go here -->
-    <div class="min-h-screen">
-      <!-- Add your existing navbar, projects, and other sections below -->
-    </div>
   </body>
 </html>
