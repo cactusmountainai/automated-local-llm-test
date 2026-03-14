@@ -25,178 +25,186 @@
       }
       
       .animate-delay-1 {
-        animation-delay: 0.1s;
-      }
-      
-      .animate-delay-2 {
         animation-delay: 0.2s;
       }
       
-      .animate-delay-3 {
-        animation-delay: 0.3s;
-      }
-      
-      /* Hero Section with Tailwind CSS */
-      .hero-section {
-        position: relative;
-        overflow: hidden;
-      }
-      
-      .hero-bg-circle {
-        animation: float 8s ease-in-out infinite;
-      }
-      
-      @keyframes float {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-20px); }
-      }
-      
-      .hero-name {
-        letter-spacing: -0.02em;
-      }
-      
-      .hero-tagline {
-        line-height: 1.6;
-      }
-      
-      .hero-intro {
-        opacity: 0.9;
-      }
-      
-      .hero-cta {
-        transition: all 0.3s ease;
-      }
-      
-      .hero-cta:hover {
-        transform: translateY(-3px) scale(1.02);
-      }
-      
-      /* Navigation Bar */
-      .nav-bar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 50;
-        background: rgba(255, 255, 255, 0.95);
-        backdrop-filter: blur(10px);
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-      }
-      
-      .dark .nav-bar {
-        background: rgba(17, 24, 39, 0.95);
-      }
-      
-      .nav-link {
-        position: relative;
-        padding: 0.5rem 1rem;
-      }
-      
-      .nav-link::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        width: 0;
-        height: 2px;
-        background: #4f46e5;
-        transition: all 0.3s ease;
-        transform: translateX(-50%);
-      }
-      
-      .nav-link:hover::after {
-        width: 100%;
-      }
-      
-      /* Dark mode classes */
-      .dark .hero-section {
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      }
-      
-      .dark .hero-name,
-      .dark .hero-tagline,
-      .dark .hero-intro,
-      .dark .hero-cta {
-        color: white;
-      }
-      
-      .dark .hero-bg-circle {
-        background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
+      .animate-delay-2 {
+        animation-delay: 0.4s;
       }
     </style>
   </head>
 
-  <body class="dark:bg-gray-900 bg-slate-50 dark:text-white">
-    <!-- Navigation Bar -->
-    <nav class="nav-bar">
-      <div class="max-w-7xl mx-auto px-8">
-        <div class="flex items-center justify-between h-16">
-          <!-- Logo/Name -->
-          <a href="#" class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-            Lane Smith
-          </a>
-          
-          <!-- Navigation Links -->
-          <div class="hidden md:flex items-center space-x-6">
-            <a href="#about" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
-              About
-            </a>
-            <a href="#skills" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
-              Skills
-            </a>
-            <a href="#projects" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
-              Projects
-            </a>
-            <a href="#experience" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
-              Experience
-            </a>
-            <a href="#portfolio" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
-              Portfolio
-            </a>
-            <a href="#contact" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
-              Contact
-            </a>
-          </div>
-          
-          <!-- Mobile Menu Button -->
-          <button class="md:hidden text-slate-700 dark:text-slate-300">
-            <i class="fa-solid fa-bars text-2xl"></i>
-          </button>
-        </div>
-      </div>
-    </nav>
-
+  <body class="dark:bg-gray-900 bg-slate-50 overflow-x-hidden">
     <!-- Hero Section -->
-    <section class="hero-section min-h-screen flex items-center justify-center px-8 py-20 relative overflow-hidden pt-16">
-      <!-- Animated background circles -->
-      <div class="hero-bg-circle absolute top-0 right-0 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full blur-3xl"></div>
-      <div class="hero-bg-circle absolute bottom-0 left-0 translate-x-1/2 translate-y-1/2 w-[300px] h-[300px] rounded-full blur-3xl"></div>
-      
-      <div class="hero-content max-w-4xl mx-auto text-center z-10">
+    <header class="w-full h-screen flex flex-col justify-center items-center px-6 sm:px-12 lg:px-24 bg-gradient-to-b from-blue-50 to-slate-50 dark:from-gray-900 dark:to-gray-800">
+      <div class="max-w-4xl w-full text-center animate-fade-up">
         <!-- Lane Smith's Name -->
-        <h1 class="hero-name text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent animate-fade-up">
-          Lane Smith
-        </h1>
+        <h1 class="hero-name mb-4 animate-delay-1">Lane Smith</h1>
         
-        <!-- Tagline -->
-        <p class="hero-tagline text-2xl md:text-3xl font-medium text-slate-700 dark:text-slate-300 mb-8 opacity-90 animate-fade-up animate-delay-1">
-          Building Digital Experiences That Matter
+        <!-- Professional Tagline -->
+        <p class="hero-tagline mb-6 animate-delay-1">
+          Creative Professional & Digital Designer
         </p>
         
         <!-- Professional Introduction -->
-        <p class="hero-intro text-lg md:text-xl text-slate-600 dark:text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed animate-fade-up animate-delay-2">
-          I'm a passionate software engineer and creative developer specializing in 
-          crafting exceptional user experiences. With a background in full-stack development 
-          and a love for clean code and elegant design, I help transform ideas into 
-          powerful, scalable applications that drive real-world impact.
+        <p class="hero-intro max-w-2xl mx-auto animate-delay-2">
+          I am a passionate professional dedicated to crafting exceptional digital experiences. 
+          With expertise in creative design, web development, and strategic thinking, 
+          I help transform ideas into impactful realities. Let's collaborate to bring your vision to life.
         </p>
         
-        <!-- Call to Action Button -->
-        <a href="#about" class="hero-cta inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 animate-fade-up animate-delay-3">
-          <i class="fa-solid fa-arrow-down"></i>
-          Explore
-        </a>
+        <!-- Social Links / CTA -->
+        <div class="mt-8 animate-delay-2">
+          <a href="#about" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg transition duration-300 shadow-lg hover:shadow-xl">
+            Explore My Work
+          </a>
+        </div>
       </div>
-    </section>
+    </header>
+    
+    <!-- Main Content Area -->
+    <main class="w-full min-h-screen">
+      <!-- Portfolio/Projects Section -->
+      <section id="portfolio" class="w-full py-24 px-6 sm:px-12 lg:px-24 dark:bg-gray-900 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+          <h2 class="text-3xl font-bold mb-12 text-center dark:text-white">Featured Work</h2>
+          
+          <!-- Portfolio Grid Container - Responsive 3-6 Column Layout -->
+          <div class="portfolio-grid grid gap-8">
+            <!-- Mobile: 1 column, Tablet: 2 columns, Desktop: 3 columns, Large: 6 columns -->
+            <div class="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+              
+              <!-- Project Card 1 -->
+              <div class="portfolio-card group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2">
+                <div class="h-48 overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c72f?w=800&auto=format&fit=crop&q=60" 
+                       alt="Project 1" 
+                       class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2 dark:text-white group-hover:text-blue-600 transition-colors">Brand Identity</h3>
+                  <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Complete brand overhaul including logo, color palette, and typography system for a tech startup.</p>
+                  <div class="flex gap-2 mb-4">
+                    <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded-full">Branding</span>
+                    <span class="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded-full">UI Design</span>
+                  </div>
+                  <a href="#" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline">
+                    View Project <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              
+              <!-- Project Card 2 -->
+              <div class="portfolio-card group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2">
+                <div class="h-48 overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1555099962-415d39bf72f6?w=800&auto=format&fit=crop&q=60" 
+                       alt="Project 2" 
+                       class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2 dark:text-white group-hover:text-blue-600 transition-colors">Web Development</h3>
+                  <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">E-commerce platform built with React and Node.js, featuring custom animations and seamless checkout.</p>
+                  <div class="flex gap-2 mb-4">
+                    <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs rounded-full">Development</span>
+                    <span class="px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 text-xs rounded-full">E-commerce</span>
+                  </div>
+                  <a href="#" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline">
+                    View Project <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              
+              <!-- Project Card 3 -->
+              <div class="portfolio-card group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2">
+                <div class="h-48 overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1541462638494-ba94389b6164?w=800&auto=format&fit=crop&q=60" 
+                       alt="Project 3" 
+                       class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2 dark:text-white group-hover:text-blue-600 transition-colors">App Design</h3>
+                  <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Mobile application UI/UX design for fitness tracking app with dark mode support.</p>
+                  <div class="flex gap-2 mb-4">
+                    <span class="px-3 py-1 bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 text-xs rounded-full">Mobile</span>
+                    <span class="px-3 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200 text-xs rounded-full">UI/UX</span>
+                  </div>
+                  <a href="#" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline">
+                    View Project <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              
+              <!-- Project Card 4 -->
+              <div class="portfolio-card group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2">
+                <div class="h-48 overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d3758?w=800&auto=format&fit=crop&q=60" 
+                       alt="Project 4" 
+                       class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2 dark:text-white group-hover:text-blue-600 transition-colors">Marketing Campaign</h3>
+                  <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Social media strategy and content creation for 3-month brand awareness campaign.</p>
+                  <div class="flex gap-2 mb-4">
+                    <span class="px-3 py-1 bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200 text-xs rounded-full">Marketing</span>
+                    <span class="px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 text-xs rounded-full">Content</span>
+                  </div>
+                  <a href="#" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline">
+                    View Project <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              
+              <!-- Project Card 5 -->
+              <div class="portfolio-card group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2">
+                <div class="h-48 overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1498050108023-c5249f430e95?w=800&auto=format&fit=crop&q=60" 
+                       alt="Project 5" 
+                       class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2 dark:text-white group-hover:text-blue-600 transition-colors">Photography</h3>
+                  <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Commercial photography series for luxury real estate portfolio with post-processing.</p>
+                  <div class="flex gap-2 mb-4">
+                    <span class="px-3 py-1 bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 text-xs rounded-full">Photography</span>
+                    <span class="px-3 py-1 bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 text-xs rounded-full">Editorial</span>
+                  </div>
+                  <a href="#" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline">
+                    View Project <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              
+              <!-- Project Card 6 -->
+              <div class="portfolio-card group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2">
+                <div class="h-48 overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1558655146-d09347e0b7a8?w=800&auto=format&fit=crop&q=60" 
+                       alt="Project 6" 
+                       class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2 dark:text-white group-hover:text-blue-600 transition-colors">Dashboard Design</h3>
+                  <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Analytics dashboard for SaaS platform with data visualization and reporting features.</p>
+                  <div class="flex gap-2 mb-4">
+                    <span class="px-3 py-1 bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200 text-xs rounded-full">Dashboard</span>
+                    <span class="px-3 py-1 bg-rose-100 dark:bg-rose-900 text-rose-800 dark:text-rose-200 text-xs rounded-full">Analytics</span>
+                  </div>
+                  <a href="#" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline">
+                    View Project <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- View All Button -->
+          <div class="text-center mt-16">
+            <a href="#projects" class="inline-block bg-gray-800 dark:bg-gray-700 hover:bg-gray-900 dark:hover:bg-gray-600 text-white font-medium py-4 px-12 rounded-full transition duration-300 shadow-lg hover:shadow-xl">
+              View All Projects
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
