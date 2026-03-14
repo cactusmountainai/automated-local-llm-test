@@ -1,10 +1,10 @@
 {
-  "current_agent": "coder",
+  "current_agent": "manager",
   "tasks": [],
   "project_summary": "",
   "github_repo": "",
   "github_project": 0,
-  "iteration": 49,
+  "iteration": 50,
   "consecutive_manager_turns": 0,
   "last_task_count": 11
 }
