@@ -22,3 +22,13 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/garrett/automated-local-llm-test/run/.multi-agent-state.json'
 Terminated
 /home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/autonomous-local-llm: line 15: unexpected EOF while looking for matching `"'
+Terminated
+Terminated
+/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/autonomous-local-llm: line 7: syntax error near unexpected token `then'
+/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/autonomous-local-llm: line 7: ` "run" ]; then'
+Terminated
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 664
+    """Main multi-agent loop"""
+                            ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 747)
+Terminated

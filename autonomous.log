@@ -212,3 +212,992 @@
 [2026-03-13T15:40:43] [INFO] 💻 CODER AGENT: Implementing tasks
 [2026-03-13T15:40:45] [TASK] Working on: Transform index.html to include Hero section with 
 [2026-03-13T15:46:35] [SUCCESS] Wrote: pages/index/index.html
+[2026-03-13T15:46:36] [SUCCESS] Committed and pushed: [Coder] Transform index.html to include Hero section with 
+[2026-03-13T15:46:41] [INFO] 
+=== Iteration 18 | Agent: REVIEWER ===
+[2026-03-13T15:46:41] [INFO] 🔍 REVIEWER AGENT: Reviewing completed work
+[2026-03-13T15:46:41] [TASK] Reviewing: Transform index.html to include Hero section with 
+[2026-03-13T15:46:58] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T15:46:58] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T15:46:58] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T15:46:58] [INFO] 
+=== Iteration 18 | Agent: REVIEWER ===
+[2026-03-13T15:46:58] [INFO] 🔍 REVIEWER AGENT: Reviewing completed work
+[2026-03-13T15:46:58] [TASK] Reviewing: Transform index.html to include Hero section with 
+[2026-03-13T15:49:06] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:49:13] [INFO] 
+=== Iteration 19 | Agent: REVIEWER ===
+[2026-03-13T15:49:13] [INFO] 🔍 REVIEWER AGENT: Reviewing completed work
+[2026-03-13T15:49:13] [INFO] No tasks awaiting review
+[2026-03-13T15:49:15] [INFO] 
+=== Iteration 20 | Agent: MANAGER ===
+[2026-03-13T15:49:15] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T15:50:23] [SUCCESS] Created task: [Task] Consolidate and clean up task list - remove
+[2026-03-13T15:50:23] [SUCCESS] Created task: [Task] Complete Hero section with Lane Smith name,
+[2026-03-13T15:50:23] [SUCCESS] Created task: [Task] Build About section with bio content and ph
+[2026-03-13T15:50:28] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:50:35] [INFO] 
+=== Iteration 21 | Agent: CODER ===
+[2026-03-13T15:50:35] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:50:40] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:50:47] [INFO] 
+=== Iteration 22 | Agent: CODER ===
+[2026-03-13T15:50:47] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:50:49] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:50:56] [INFO] 
+=== Iteration 23 | Agent: CODER ===
+[2026-03-13T15:50:56] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:50:59] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:51:06] [INFO] 
+=== Iteration 24 | Agent: CODER ===
+[2026-03-13T15:51:06] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:51:09] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:51:16] [INFO] 
+=== Iteration 25 | Agent: CODER ===
+[2026-03-13T15:51:16] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:51:18] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:51:25] [INFO] 
+=== Iteration 26 | Agent: CODER ===
+[2026-03-13T15:51:25] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:51:28] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:51:35] [INFO] 
+=== Iteration 27 | Agent: CODER ===
+[2026-03-13T15:51:35] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:51:37] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:51:44] [INFO] 
+=== Iteration 28 | Agent: CODER ===
+[2026-03-13T15:51:44] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:51:47] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:51:54] [INFO] 
+=== Iteration 29 | Agent: CODER ===
+[2026-03-13T15:51:54] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:51:57] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:52:04] [INFO] 
+=== Iteration 30 | Agent: CODER ===
+[2026-03-13T15:52:04] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:52:06] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:52:13] [INFO] 
+=== Iteration 31 | Agent: CODER ===
+[2026-03-13T15:52:13] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:52:16] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:52:23] [INFO] 
+=== Iteration 32 | Agent: CODER ===
+[2026-03-13T15:52:23] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:52:25] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:52:32] [INFO] 
+=== Iteration 33 | Agent: CODER ===
+[2026-03-13T15:52:32] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:52:35] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:52:42] [INFO] 
+=== Iteration 34 | Agent: CODER ===
+[2026-03-13T15:52:42] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:52:45] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:52:52] [INFO] 
+=== Iteration 35 | Agent: CODER ===
+[2026-03-13T15:52:52] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:52:54] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:53:01] [INFO] 
+=== Iteration 36 | Agent: CODER ===
+[2026-03-13T15:53:01] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:53:04] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:53:11] [INFO] 
+=== Iteration 37 | Agent: CODER ===
+[2026-03-13T15:53:11] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:53:14] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:53:21] [INFO] 
+=== Iteration 38 | Agent: CODER ===
+[2026-03-13T15:53:21] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:53:24] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:53:31] [INFO] 
+=== Iteration 39 | Agent: CODER ===
+[2026-03-13T15:53:31] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:53:34] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:53:41] [INFO] 
+=== Iteration 40 | Agent: CODER ===
+[2026-03-13T15:53:41] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:53:44] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:53:51] [INFO] 
+=== Iteration 41 | Agent: CODER ===
+[2026-03-13T15:53:51] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:53:53] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:54:00] [INFO] 
+=== Iteration 42 | Agent: CODER ===
+[2026-03-13T15:54:00] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:54:03] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:54:10] [INFO] 
+=== Iteration 43 | Agent: CODER ===
+[2026-03-13T15:54:10] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:54:13] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:54:20] [INFO] 
+=== Iteration 44 | Agent: CODER ===
+[2026-03-13T15:54:20] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:54:23] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:54:30] [INFO] 
+=== Iteration 45 | Agent: CODER ===
+[2026-03-13T15:54:30] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:54:32] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:54:39] [INFO] 
+=== Iteration 46 | Agent: CODER ===
+[2026-03-13T15:54:39] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:54:42] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:54:49] [INFO] 
+=== Iteration 47 | Agent: CODER ===
+[2026-03-13T15:54:49] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:54:52] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:54:59] [INFO] 
+=== Iteration 48 | Agent: CODER ===
+[2026-03-13T15:54:59] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:55:03] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:55:10] [INFO] 
+=== Iteration 49 | Agent: CODER ===
+[2026-03-13T15:55:10] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:55:14] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T15:55:21] [INFO] 
+=== Iteration 50 | Agent: CODER ===
+[2026-03-13T15:55:21] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T15:55:22] [TASK] Working on: [Create Skills showcase section with icon cards sh
+[2026-03-13T16:05:22] [ERROR] Agent error: LLM call failed: timed out
+[2026-03-13T16:05:29] [INFO] 
+=== Iteration 51 | Agent: CODER ===
+[2026-03-13T16:05:29] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:05:31] [TASK] Working on: [Build Project Portfolio section with 3-6 placehol
+[2026-03-13T16:14:25] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T16:14:25] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T16:14:25] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T16:14:25] [INFO] 
+=== Iteration 20 | Agent: MANAGER ===
+[2026-03-13T16:14:25] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T16:14:46] [INFO] Removed 11 duplicate tasks
+[2026-03-13T16:16:15] [WARN] Task limit (20) reached, skipping: Complete Hero section for index.html with Lane Smi
+[2026-03-13T16:16:18] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:16:25] [INFO] 
+=== Iteration 21 | Agent: MANAGER ===
+[2026-03-13T16:16:25] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T16:16:40] [INFO] Removed 11 duplicate tasks
+[2026-03-13T16:17:49] [WARN] Task limit (20) reached, skipping: [Complete Hero section on index.html with Lane Smi
+[2026-03-13T16:17:53] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:18:00] [INFO] 
+=== Iteration 22 | Agent: MANAGER ===
+[2026-03-13T16:18:00] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T16:18:15] [INFO] Removed 11 duplicate tasks
+[2026-03-13T16:19:30] [WARN] Task limit (20) reached, skipping: Transform index.html Hero section: Replace "Under 
+[2026-03-13T16:19:30] [WARN] Manager loop detected, forcing coder agent
+[2026-03-13T16:19:34] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:19:41] [INFO] 
+=== Iteration 23 | Agent: CODER ===
+[2026-03-13T16:19:41] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:19:44] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:19:51] [INFO] 
+=== Iteration 24 | Agent: CODER ===
+[2026-03-13T16:19:51] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:19:54] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:20:01] [INFO] 
+=== Iteration 25 | Agent: CODER ===
+[2026-03-13T16:20:01] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:20:03] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:20:10] [INFO] 
+=== Iteration 26 | Agent: CODER ===
+[2026-03-13T16:20:10] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:20:12] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:20:19] [INFO] 
+=== Iteration 27 | Agent: CODER ===
+[2026-03-13T16:20:19] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:20:22] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:20:29] [INFO] 
+=== Iteration 28 | Agent: CODER ===
+[2026-03-13T16:20:29] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:20:32] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:20:39] [INFO] 
+=== Iteration 29 | Agent: CODER ===
+[2026-03-13T16:20:39] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:20:42] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:20:49] [INFO] 
+=== Iteration 30 | Agent: CODER ===
+[2026-03-13T16:20:49] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:20:52] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:20:59] [INFO] 
+=== Iteration 31 | Agent: CODER ===
+[2026-03-13T16:20:59] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:21:01] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:21:08] [INFO] 
+=== Iteration 32 | Agent: CODER ===
+[2026-03-13T16:21:08] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:21:11] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:21:18] [INFO] 
+=== Iteration 33 | Agent: CODER ===
+[2026-03-13T16:21:18] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:21:21] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:21:28] [INFO] 
+=== Iteration 34 | Agent: CODER ===
+[2026-03-13T16:21:28] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:21:31] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:21:37] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T16:21:37] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T16:21:37] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T16:21:37] [INFO] 
+=== Iteration 20 | Agent: MANAGER ===
+[2026-03-13T16:21:37] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T16:21:53] [INFO] Removed 11 duplicate tasks
+[2026-03-13T16:22:40] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T16:22:40] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T16:22:40] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T16:22:41] [INFO] 
+=== Iteration 20 | Agent: MANAGER ===
+[2026-03-13T16:22:41] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T16:22:57] [INFO] Removed 11 duplicate tasks
+[2026-03-13T16:24:18] [WARN] Task limit (20) reached, skipping: Complete Hero section: Add Lane Smith name, profes
+[2026-03-13T16:24:22] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:24:22] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 497, in run
+    self.github_sync.sync_all_tasks(tasks)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 245, in sync_all_tasks
+    self.update_task_status(task)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:24:29] [INFO] 
+=== Iteration 21 | Agent: MANAGER ===
+[2026-03-13T16:24:29] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T16:24:45] [INFO] Removed 11 duplicate tasks
+[2026-03-13T16:26:13] [WARN] Task limit (20) reached, skipping: Complete Hero section in index.html with Lane Smit
+[2026-03-13T16:26:16] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:26:16] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 497, in run
+    self.github_sync.sync_all_tasks(tasks)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 245, in sync_all_tasks
+    self.update_task_status(task)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:26:23] [INFO] 
+=== Iteration 22 | Agent: CODER ===
+[2026-03-13T16:26:23] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:26:26] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:26:26] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:26:33] [INFO] 
+=== Iteration 23 | Agent: CODER ===
+[2026-03-13T16:26:33] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:26:35] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:26:35] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:26:42] [INFO] 
+=== Iteration 24 | Agent: CODER ===
+[2026-03-13T16:26:42] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:26:45] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:26:45] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:26:52] [INFO] 
+=== Iteration 25 | Agent: CODER ===
+[2026-03-13T16:26:52] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:26:55] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:26:55] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:27:02] [INFO] 
+=== Iteration 26 | Agent: CODER ===
+[2026-03-13T16:27:02] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:27:05] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:27:05] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:27:12] [INFO] 
+=== Iteration 27 | Agent: CODER ===
+[2026-03-13T16:27:12] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:27:14] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:27:14] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:27:21] [INFO] 
+=== Iteration 28 | Agent: CODER ===
+[2026-03-13T16:27:21] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:27:24] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:27:24] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:27:31] [INFO] 
+=== Iteration 29 | Agent: CODER ===
+[2026-03-13T16:27:31] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:27:34] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:27:34] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:27:41] [INFO] 
+=== Iteration 30 | Agent: CODER ===
+[2026-03-13T16:27:41] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:27:44] [ERROR] Agent error: 'str' object has no attribute 'get'
+[2026-03-13T16:27:44] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 701, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 526, in run
+    self.github_sync.update_task_status(todo_task)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 227, in update_task_status
+    self.gh.update_project_item_status(self.project_number, task.github_issue, task.status)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/github_integration.py", line 257, in update_project_item_status
+    if field.get('name') == 'Status':
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[2026-03-13T16:27:51] [INFO] 
+=== Iteration 31 | Agent: CODER ===
+[2026-03-13T16:27:51] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:27:53] [TASK] Working on: [Build Project Portfolio section with 3-6 placehol
+[2026-03-13T16:31:34] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T16:31:34] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T16:31:34] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T16:31:35] [INFO] 
+=== Iteration 20 | Agent: MANAGER ===
+[2026-03-13T16:31:35] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T16:31:49] [INFO] Removed 11 duplicate tasks
+[2026-03-13T16:33:16] [WARN] Task limit (20) reached, skipping: [Hero section: Build hero component with Lane Smit
+[2026-03-13T16:33:28] [INFO] 
+=== Iteration 21 | Agent: MANAGER ===
+[2026-03-13T16:33:28] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T16:34:53] [WARN] Task limit (20) reached, skipping: Complete Hero section with Lane Smith name, taglin
+[2026-03-13T16:35:06] [INFO] 
+=== Iteration 22 | Agent: CODER ===
+[2026-03-13T16:35:06] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:35:07] [TASK] Working on: [Implement Contact section with functional form st
+[2026-03-13T16:37:20] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T16:37:20] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T16:37:20] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T16:37:28] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T16:37:28] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T16:37:28] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T16:37:32] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T16:37:32] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T16:37:32] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T16:37:40] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T16:37:40] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T16:37:40] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T16:37:40] [INFO] 
+=== Iteration 22 | Agent: CODER ===
+[2026-03-13T16:37:40] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:37:42] [TASK] Working on: [Add smooth animations and interactions throughout
+[2026-03-13T16:47:43] [ERROR] Agent error: LLM call failed: timed out
+[2026-03-13T16:47:43] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 135, in call_local_llm
+    with urllib.request.urlopen(req, timeout=600) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1350, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1325, in do_open
+    r = h.getresponse()
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 708, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 567, in run
+    response = self.call_llm(system_prompt, user_prompt)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 356, in call_llm
+    return call_local_llm(messages, self.config)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 149, in call_local_llm
+    raise Exception(f"LLM call failed: {e}")
+Exception: LLM call failed: timed out
+
+[2026-03-13T16:47:50] [INFO] 
+=== Iteration 23 | Agent: CODER ===
+[2026-03-13T16:47:50] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:47:50] [TASK] Working on: [Verify mobile-responsive design across all sectio
+[2026-03-13T16:57:50] [ERROR] Agent error: LLM call failed: timed out
+[2026-03-13T16:57:50] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 135, in call_local_llm
+    with urllib.request.urlopen(req, timeout=600) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1350, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1325, in do_open
+    r = h.getresponse()
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 708, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 567, in run
+    response = self.call_llm(system_prompt, user_prompt)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 356, in call_llm
+    return call_local_llm(messages, self.config)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 149, in call_local_llm
+    raise Exception(f"LLM call failed: {e}")
+Exception: LLM call failed: timed out
+
+[2026-03-13T16:57:57] [INFO] 
+=== Iteration 24 | Agent: CODER ===
+[2026-03-13T16:57:57] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T16:58:01] [TASK] Working on: [Deploy to GitHub Pages once all sections are comp
+[2026-03-13T17:08:01] [ERROR] Agent error: LLM call failed: timed out
+[2026-03-13T17:08:01] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 135, in call_local_llm
+    with urllib.request.urlopen(req, timeout=600) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1350, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1325, in do_open
+    r = h.getresponse()
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 708, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 567, in run
+    response = self.call_llm(system_prompt, user_prompt)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 356, in call_llm
+    return call_local_llm(messages, self.config)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 149, in call_local_llm
+    raise Exception(f"LLM call failed: {e}")
+Exception: LLM call failed: timed out
+
+[2026-03-13T17:08:08] [INFO] 
+=== Iteration 25 | Agent: CODER ===
+[2026-03-13T17:08:08] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:08:08] [INFO] No tasks available for coding
+[2026-03-13T17:08:10] [INFO] 
+=== Iteration 26 | Agent: MANAGER ===
+[2026-03-13T17:08:10] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:09:20] [WARN] Task limit (20) reached, skipping: Transform index.html Hero section: Add Lane Smith 
+[2026-03-13T17:11:01] [INFO] 
+=== Iteration 27 | Agent: CODER ===
+[2026-03-13T17:11:01] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:11:01] [INFO] No tasks available for coding
+[2026-03-13T17:11:03] [INFO] 
+=== Iteration 28 | Agent: MANAGER ===
+[2026-03-13T17:11:03] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:12:45] [WARN] Task limit (20) reached, skipping: Transform index.html Hero section with Lane Smith 
+[2026-03-13T17:13:42] [INFO] 
+=== Iteration 29 | Agent: CODER ===
+[2026-03-13T17:13:42] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:13:42] [INFO] No tasks available for coding
+[2026-03-13T17:13:44] [INFO] 
+=== Iteration 30 | Agent: MANAGER ===
+[2026-03-13T17:13:44] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:15:02] [WARN] Task limit (20) reached, skipping: [Hero section] Complete Hero section with Lane Smi
+[2026-03-13T17:15:11] [INFO] 
+=== Iteration 31 | Agent: MANAGER ===
+[2026-03-13T17:15:11] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:16:37] [WARN] Task limit (20) reached, skipping: Complete Hero section on index.html: Add Lane Smit
+[2026-03-13T17:16:43] [INFO] 
+=== Iteration 32 | Agent: MANAGER ===
+[2026-03-13T17:16:43] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:17:58] [WARN] Task limit (20) reached, skipping: Complete Hero section for index.html with Lane Smi
+[2026-03-13T17:18:05] [INFO] 
+=== Iteration 33 | Agent: CODER ===
+[2026-03-13T17:18:05] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:18:05] [INFO] No tasks available for coding
+[2026-03-13T17:18:07] [INFO] 
+=== Iteration 34 | Agent: MANAGER ===
+[2026-03-13T17:18:07] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:19:24] [WARN] Task limit (20) reached, skipping: Transform index.html Hero section: Add Lane Smith 
+[2026-03-13T17:19:28] [INFO] 
+=== Iteration 35 | Agent: MANAGER ===
+[2026-03-13T17:19:28] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:20:53] [WARN] Task limit (20) reached, skipping: Build Hero section with Lane Smith name, tagline, 
+[2026-03-13T17:20:57] [INFO] 
+=== Iteration 36 | Agent: MANAGER ===
+[2026-03-13T17:20:57] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:22:16] [WARN] Task limit (20) reached, skipping: Complete Hero section with Lane Smith name, taglin
+[2026-03-13T17:22:20] [INFO] 
+=== Iteration 37 | Agent: MANAGER ===
+[2026-03-13T17:22:20] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:23:43] [WARN] Task limit (20) reached, skipping: [Hero section] Implement Hero section with Lane Sm
+[2026-03-13T17:23:47] [INFO] 
+=== Iteration 38 | Agent: CODER ===
+[2026-03-13T17:23:47] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:23:47] [INFO] No tasks available for coding
+[2026-03-13T17:23:49] [INFO] 
+=== Iteration 39 | Agent: MANAGER ===
+[2026-03-13T17:23:49] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:25:08] [WARN] Task limit (20) reached, skipping: Complete Hero section on index.html: Add Lane Smit
+[2026-03-13T17:25:13] [INFO] 
+=== Iteration 40 | Agent: MANAGER ===
+[2026-03-13T17:25:13] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:26:22] [WARN] Task limit (20) reached, skipping: Transform index.html to include complete Hero sect
+[2026-03-13T17:26:26] [INFO] 
+=== Iteration 41 | Agent: CODER ===
+[2026-03-13T17:26:26] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:26:26] [INFO] No tasks available for coding
+[2026-03-13T17:26:28] [INFO] 
+=== Iteration 42 | Agent: MANAGER ===
+[2026-03-13T17:26:28] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:27:46] [WARN] Task limit (20) reached, skipping: Transform index.html Hero section: Add Lane Smith 
+[2026-03-13T17:27:50] [INFO] 
+=== Iteration 43 | Agent: MANAGER ===
+[2026-03-13T17:27:50] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:29:15] [WARN] Task limit (20) reached, skipping: Complete Hero section: Add Lane Smith name (h1), t
+[2026-03-13T17:29:20] [INFO] 
+=== Iteration 44 | Agent: MANAGER ===
+[2026-03-13T17:29:20] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:30:36] [WARN] Task limit (20) reached, skipping: [Hero section] Transform index.html with Lane Smit
+[2026-03-13T17:30:40] [INFO] 
+=== Iteration 45 | Agent: REVIEWER ===
+[2026-03-13T17:30:40] [INFO] 🔍 REVIEWER AGENT: Reviewing completed work
+[2026-03-13T17:30:40] [INFO] No tasks awaiting review
+[2026-03-13T17:30:42] [INFO] 
+=== Iteration 46 | Agent: MANAGER ===
+[2026-03-13T17:30:42] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:31:56] [WARN] Task limit (20) reached, skipping: Complete Hero section for index.html with Lane Smi
+[2026-03-13T17:32:01] [INFO] 
+=== Iteration 47 | Agent: MANAGER ===
+[2026-03-13T17:32:01] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:33:20] [WARN] Task limit (20) reached, skipping: Complete Hero section in index.html with Lane Smit
+[2026-03-13T17:33:25] [INFO] 
+=== Iteration 48 | Agent: MANAGER ===
+[2026-03-13T17:33:25] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:34:43] [WARN] Task limit (20) reached, skipping: Complete Hero section for index.html: Add Lane Smi
+[2026-03-13T17:34:48] [INFO] 
+=== Iteration 49 | Agent: MANAGER ===
+[2026-03-13T17:34:48] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:36:02] [WARN] Task limit (20) reached, skipping: Complete Hero section: Add Lane Smith name, taglin
+[2026-03-13T17:36:06] [INFO] 
+=== Iteration 50 | Agent: CODER ===
+[2026-03-13T17:36:06] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:36:06] [INFO] No tasks available for coding
+[2026-03-13T17:36:08] [INFO] 
+=== Iteration 51 | Agent: MANAGER ===
+[2026-03-13T17:36:08] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:37:42] [WARN] Task limit (20) reached, skipping: Implement Hero section in index.html with Lane Smi
+[2026-03-13T17:37:47] [INFO] 
+=== Iteration 52 | Agent: CODER ===
+[2026-03-13T17:37:47] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:37:47] [INFO] No tasks available for coding
+[2026-03-13T17:37:49] [INFO] 
+=== Iteration 53 | Agent: MANAGER ===
+[2026-03-13T17:37:49] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:39:02] [WARN] Task limit (20) reached, skipping: Implement Hero section in index.html with Lane Smi
+[2026-03-13T17:39:06] [INFO] 
+=== Iteration 54 | Agent: MANAGER ===
+[2026-03-13T17:39:06] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:40:19] [WARN] Task limit (20) reached, skipping: Transform index.html Hero section: Add Lane Smith 
+[2026-03-13T17:40:23] [INFO] 
+=== Iteration 55 | Agent: CODER ===
+[2026-03-13T17:40:23] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:40:23] [INFO] No tasks available for coding
+[2026-03-13T17:40:25] [INFO] 
+=== Iteration 56 | Agent: MANAGER ===
+[2026-03-13T17:40:25] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:42:00] [WARN] Task limit (20) reached, skipping: Complete Hero section with Lane Smith name, "Creat
+[2026-03-13T17:42:04] [INFO] 
+=== Iteration 57 | Agent: CODER ===
+[2026-03-13T17:42:04] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:42:04] [INFO] No tasks available for coding
+[2026-03-13T17:42:06] [INFO] 
+=== Iteration 58 | Agent: MANAGER ===
+[2026-03-13T17:42:06] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:43:19] [WARN] Task limit (20) reached, skipping: Complete Hero section implementation in index.html
+[2026-03-13T17:43:23] [INFO] 
+=== Iteration 59 | Agent: MANAGER ===
+[2026-03-13T17:43:23] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:43:29] [ERROR] Agent error: LLM call failed: Remote end closed connection without response
+[2026-03-13T17:43:29] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 135, in call_local_llm
+    with urllib.request.urlopen(req, timeout=600) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1350, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1325, in do_open
+    r = h.getresponse()
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 708, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 429, in run
+    response = self.call_llm(system_prompt, user_prompt)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 356, in call_llm
+    return call_local_llm(messages, self.config)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 149, in call_local_llm
+    raise Exception(f"LLM call failed: {e}")
+Exception: LLM call failed: Remote end closed connection without response
+
+[2026-03-13T17:43:36] [INFO] 
+=== Iteration 60 | Agent: MANAGER ===
+[2026-03-13T17:43:36] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:43:40] [ERROR] Agent error: LLM call failed: Remote end closed connection without response
+[2026-03-13T17:43:40] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 135, in call_local_llm
+    with urllib.request.urlopen(req, timeout=600) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1350, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1325, in do_open
+    r = h.getresponse()
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 708, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 429, in run
+    response = self.call_llm(system_prompt, user_prompt)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 356, in call_llm
+    return call_local_llm(messages, self.config)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 149, in call_local_llm
+    raise Exception(f"LLM call failed: {e}")
+Exception: LLM call failed: Remote end closed connection without response
+
+[2026-03-13T17:43:47] [INFO] 
+=== Iteration 61 | Agent: MANAGER ===
+[2026-03-13T17:43:47] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:43:57] [ERROR] Agent error: LLM call failed: Remote end closed connection without response
+[2026-03-13T17:43:57] [ERROR] Traceback: Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 135, in call_local_llm
+    with urllib.request.urlopen(req, timeout=600) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1350, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/urllib/request.py", line 1325, in do_open
+    r = h.getresponse()
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.14/3.14.3_1/lib/python3.14/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 708, in run_multi_agent_loop
+    state, tasks = agent.run(state, tasks)
+                   ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 429, in run
+    response = self.call_llm(system_prompt, user_prompt)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 356, in call_llm
+    return call_local_llm(messages, self.config)
+  File "/home/garrett/.openclaw/workspace/TOOLS/autonomous-local-llm/multi_agent.py", line 149, in call_local_llm
+    raise Exception(f"LLM call failed: {e}")
+Exception: LLM call failed: Remote end closed connection without response
+
+[2026-03-13T17:44:04] [INFO] 
+=== Iteration 62 | Agent: MANAGER ===
+[2026-03-13T17:44:04] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:45:17] [WARN] Task limit (20) reached, skipping: Complete Hero section for index.html with Lane Smi
+[2026-03-13T17:45:21] [INFO] 
+=== Iteration 63 | Agent: MANAGER ===
+[2026-03-13T17:45:21] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:46:32] [WARN] Task limit (20) reached, skipping: Complete Hero section in index.html with Lane Smit
+[2026-03-13T17:46:37] [INFO] 
+=== Iteration 64 | Agent: MANAGER ===
+[2026-03-13T17:46:37] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:47:59] [WARN] Task limit (20) reached, skipping: Transform index.html Hero section: Add Lane Smith 
+[2026-03-13T17:48:03] [INFO] 
+=== Iteration 65 | Agent: CODER ===
+[2026-03-13T17:48:03] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:48:03] [INFO] No tasks available for coding
+[2026-03-13T17:48:05] [INFO] 
+=== Iteration 66 | Agent: MANAGER ===
+[2026-03-13T17:48:05] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:52:23] [INFO] 🚀 Starting Multi-Agent System
+[2026-03-13T17:52:23] [INFO] Project: /home/garrett/automated-local-llm-test
+[2026-03-13T17:52:23] [INFO] LM Studio: http://192.168.102.199:1234/v1
+[2026-03-13T17:52:23] [INFO] 
+=== Iteration 66 | Agent: MANAGER ===
+[2026-03-13T17:52:23] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:53:42] [WARN] Task limit (20) reached, skipping: Hero section: Create hero with Lane Smith name, ta
+[2026-03-13T17:53:45] [INFO] 
+=== Iteration 67 | Agent: CODER ===
+[2026-03-13T17:53:45] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:53:45] [INFO] No tasks available for coding
+[2026-03-13T17:53:47] [INFO] 
+=== Iteration 68 | Agent: MANAGER ===
+[2026-03-13T17:53:47] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:55:11] [WARN] Task limit (20) reached, skipping: Transform index.html hero section with Lane Smith 
+[2026-03-13T17:55:15] [INFO] 
+=== Iteration 69 | Agent: MANAGER ===
+[2026-03-13T17:55:15] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:56:32] [WARN] Task limit (20) reached, skipping: Implement Hero section in index.html with Lane Smi
+[2026-03-13T17:56:36] [INFO] 
+=== Iteration 70 | Agent: CODER ===
+[2026-03-13T17:56:36] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:56:36] [INFO] No tasks available for coding
+[2026-03-13T17:56:38] [INFO] 
+=== Iteration 71 | Agent: MANAGER ===
+[2026-03-13T17:56:38] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:57:43] [WARN] Task limit (20) reached, skipping: Build Hero section in index.html with Lane Smith n
+[2026-03-13T17:57:47] [INFO] 
+=== Iteration 72 | Agent: CODER ===
+[2026-03-13T17:57:47] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T17:57:47] [INFO] No tasks available for coding
+[2026-03-13T17:57:49] [INFO] 
+=== Iteration 73 | Agent: MANAGER ===
+[2026-03-13T17:57:49] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T17:59:02] [WARN] Task limit (20) reached, skipping: Complete Hero section with Lane Smith name, profes
+[2026-03-13T18:00:47] [INFO] 
+=== Iteration 74 | Agent: MANAGER ===
+[2026-03-13T18:00:47] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T18:02:21] [WARN] Task limit (20) reached, skipping: Complete Hero section for index.html with Lane Smi
+[2026-03-13T18:03:22] [INFO] 
+=== Iteration 75 | Agent: MANAGER ===
+[2026-03-13T18:03:22] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T18:04:43] [WARN] Task limit (20) reached, skipping: [Hero Section] Build Hero section with Lane Smith 
+[2026-03-13T18:04:52] [INFO] 
+=== Iteration 76 | Agent: MANAGER ===
+[2026-03-13T18:04:52] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
+[2026-03-13T18:06:00] [WARN] Task limit (20) reached, skipping: [Hero section: Transform index.html Hero area with
+[2026-03-13T18:06:07] [INFO] 
+=== Iteration 77 | Agent: CODER ===
+[2026-03-13T18:06:07] [INFO] 💻 CODER AGENT: Implementing tasks
+[2026-03-13T18:06:07] [INFO] No tasks available for coding
+[2026-03-13T18:06:09] [INFO] 
+=== Iteration 78 | Agent: MANAGER ===
+[2026-03-13T18:06:09] [INFO] 🎯 MANAGER AGENT: Planning and coordinating
