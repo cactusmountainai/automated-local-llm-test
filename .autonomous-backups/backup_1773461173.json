@@ -1,14 +1,14 @@
 {
-  "timestamp": 1773458757.15284,
+  "timestamp": 1773461173.408412,
   "state": {
     "current_agent": "manager",
     "tasks": [],
     "project_summary": "",
     "github_repo": "",
     "github_project": 0,
-    "iteration": 4,
+    "iteration": 10,
     "consecutive_manager_turns": 0,
-    "last_task_count": 4
+    "last_task_count": 11
   },
   "tasks": [
     {
@@ -36,11 +36,11 @@
     {
       "id": "task_3",
       "description": "Implement skills showcase section displaying technical skills",
-      "status": "Todo",
-      "assignee": null,
+      "status": "In Progress",
+      "assignee": "coder",
       "github_issue": 72,
       "created_at": "2026-03-13T20:09:19",
-      "updated_at": "",
+      "updated_at": "2026-03-13T20:39:10",
       "review_feedback": "",
       "attempt_count": 0
     },
@@ -58,22 +58,22 @@
     {
       "id": "task_4_sub1",
       "description": "Create the project portfolio section container with a responsive grid layout (3-6 columns)",
-      "status": "Todo",
-      "assignee": null,
+      "status": "In Progress",
+      "assignee": "coder",
       "github_issue": 74,
       "created_at": "2026-03-13T20:17:42",
-      "updated_at": "",
+      "updated_at": "2026-03-13T20:52:39",
       "review_feedback": "",
       "attempt_count": 0
     },
     {
       "id": "task_4_sub2",
       "description": "Build individual project card components with title, description text, and action link elements",
-      "status": "Todo",
-      "assignee": null,
+      "status": "In Progress",
+      "assignee": "coder",
       "github_issue": 75,
       "created_at": "2026-03-13T20:17:42",
-      "updated_at": "",
+      "updated_at": "2026-03-13T21:06:11",
       "review_feedback": "",
       "attempt_count": 0
     },
@@ -106,6 +106,28 @@
       "assignee": null,
       "github_issue": 78,
       "created_at": "2026-03-13T20:17:42",
+      "updated_at": "",
+      "review_feedback": "",
+      "attempt_count": 0
+    },
+    {
+      "id": "task_10",
+      "description": "Create hero section header with Lane Smith name and tagline in index.html",
+      "status": "Todo",
+      "assignee": null,
+      "github_issue": 79,
+      "created_at": "2026-03-13T20:27:39",
+      "updated_at": "",
+      "review_feedback": "",
+      "attempt_count": 0
+    },
+    {
+      "id": "task_11",
+      "description": "Add about/bio section with text content and placeholder image in index.html",
+      "status": "Todo",
+      "assignee": null,
+      "github_issue": 80,
+      "created_at": "2026-03-13T20:27:39",
       "updated_at": "",
       "review_feedback": "",
       "attempt_count": 0
