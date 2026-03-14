@@ -1,0 +1,14 @@
+{
+  "timestamp": 1773457689.6191812,
+  "state": {
+    "current_agent": "manager",
+    "tasks": [],
+    "project_summary": "",
+    "github_repo": "",
+    "github_project": 0,
+    "iteration": 0,
+    "consecutive_manager_turns": 0,
+    "last_task_count": 0
+  },
+  "tasks": []
+}

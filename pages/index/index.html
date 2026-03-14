@@ -4,11 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lane Smith | Portfolio</title>
+    <title>Home | Lane Smith Portfolio</title>
     <link href="../../styles/output.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a8cc471b41.js" crossorigin="anonymous"></script>
     <style>
-      /* Tailwind dark mode classes */
+      /* Hero Section Animation */
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .animate-fade-up {
+        animation: fadeUp 1s ease-out forwards;
+      }
+      
+      .animate-delay-1 {
+        animation-delay: 0.1s;
+      }
+      
+      .animate-delay-2 {
+        animation-delay: 0.2s;
+      }
+      
+      .animate-delay-3 {
+        animation-delay: 0.3s;
+      }
+      
+      /* Hero Section with Tailwind CSS */
+      .hero-section {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .hero-bg-circle {
+        animation: float 8s ease-in-out infinite;
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+      }
+      
+      .hero-name {
+        letter-spacing: -0.02em;
+      }
+      
+      .hero-tagline {
+        line-height: 1.6;
+      }
+      
+      .hero-intro {
+        opacity: 0.9;
+      }
+      
+      .hero-cta {
+        transition: all 0.3s ease;
+      }
+      
+      .hero-cta:hover {
+        transform: translateY(-3px) scale(1.02);
+      }
+      
+      /* Navigation Bar */
+      .nav-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      
+      .dark .nav-bar {
+        background: rgba(17, 24, 39, 0.95);
+      }
+      
+      .nav-link {
+        position: relative;
+        padding: 0.5rem 1rem;
+      }
+      
+      .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background: #4f46e5;
+        transition: all 0.3s ease;
+        transform: translateX(-50%);
+      }
+      
+      .nav-link:hover::after {
+        width: 100%;
+      }
+      
+      /* Dark mode classes */
       .dark .hero-section {
         background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
       }
@@ -27,8 +127,47 @@
   </head>
 
   <body class="dark:bg-gray-900 bg-slate-50 dark:text-white">
-    <!-- Hero Section with Tailwind CSS -->
-    <section class="hero-section min-h-screen flex items-center justify-center px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 relative overflow-hidden">
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+      <div class="max-w-7xl mx-auto px-8">
+        <div class="flex items-center justify-between h-16">
+          <!-- Logo/Name -->
+          <a href="#" class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            Lane Smith
+          </a>
+          
+          <!-- Navigation Links -->
+          <div class="hidden md:flex items-center space-x-6">
+            <a href="#about" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
+              About
+            </a>
+            <a href="#skills" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
+              Skills
+            </a>
+            <a href="#projects" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
+              Projects
+            </a>
+            <a href="#experience" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
+              Experience
+            </a>
+            <a href="#portfolio" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
+              Portfolio
+            </a>
+            <a href="#contact" class="nav-link text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
+              Contact
+            </a>
+          </div>
+          
+          <!-- Mobile Menu Button -->
+          <button class="md:hidden text-slate-700 dark:text-slate-300">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section min-h-screen flex items-center justify-center px-8 py-20 relative overflow-hidden pt-16">
       <!-- Animated background circles -->
       <div class="hero-bg-circle absolute top-0 right-0 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full blur-3xl"></div>
       <div class="hero-bg-circle absolute bottom-0 left-0 translate-x-1/2 translate-y-1/2 w-[300px] h-[300px] rounded-full blur-3xl"></div>
