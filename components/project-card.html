@@ -1,0 +1,64 @@
+<!-- Project Card Component -->
+<div class="project-card dark:bg-gray-800 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group">
+  <!-- Card Header with Title -->
+  <div class="p-6 border-b border-gray-200 dark:border-gray-700">
+    <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+      <span class="line-clamp-2">{{ title }}</span>
+    </h3>
+  </div>
+  
+  <!-- Card Content with Description -->
+  <div class="p-6">
+    <!-- Description Text -->
+    <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed line-clamp-3 mb-4">
+      {{ description }}
+    </p>
+    
+    <!-- Project Tags (Optional) -->
+    <div class="flex flex-wrap gap-2 mb-4">
+      {{#each tags}}
+        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs rounded-full">
+          {{ this }}
+        </span>
+      {{/each}}
+    </div>
+    
+    <!-- Action Links -->
+    <div class="flex flex-wrap gap-3">
+      <!-- View Project Link -->
+      <a 
+        href="{{ viewLink }}" 
+        class="inline-flex items-center justify-center px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm font-medium rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 group-hover:from-blue-700 group-hover:to-purple-700"
+      >
+        <i class="fas fa-external-link-alt mr-2 group-hover:animate-pulse"></i>
+        View Project
+      </a>
+      
+      <!-- GitHub Link (if applicable) -->
+      {{#if githubLink}}
+      <a 
+        href="{{ githubLink }}" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 text-sm font-medium rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-300"
+      >
+        <i class="fab fa-github mr-2"></i>
+        Code
+      </a>
+      {{/if}}
+      
+      <!-- Demo Link (if applicable) -->
+      {{#if demoLink}}
+      <a 
+        href="{{ demoLink }}" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-sm font-medium rounded-lg hover:bg-green-200 dark:hover:bg-green-900/50 transition-all duration-300"
+      >
+        <i class="fas fa-play mr-2"></i>
+        Demo
+      </a>
+      {{/if}}
+    </div>
+  </div>
+</div>
